@@ -1,0 +1,24 @@
+{
+  "West Virginia": {
+    "('Age (years)', '35 - 44')": 30.100000381469727,
+    "('Age (years)', '45 - 54')": 31.299999237060547,
+    "('Age (years)', '55 - 64')": 28.799999237060547,
+    "('Age (years)', '65 or older')": 28.200000762939453,
+    "('Education', 'College graduate')": 33.79999923706055,
+    "('Education', 'High school graduate')": 30.299999237060547,
+    "('Education', 'Less than high school')": 25.700000762939453,
+    "('Gender', 'Female')": 29.799999237060547,
+    "('Gender', 'Male')": 35.0,
+    "('Income', '$15,000 - $24,999')": 30.299999237060547,
+    "('Income', '$25,000 - $34,999')": 30.25,
+    "('Income', '$35,000 - $49,999')": 27.600000381469727,
+    "('Income', '$50,000 - $74,999')": 31.200000762939453,
+    "('Income', '$75,000 or greater')": 35.5,
+    "('Income', 'Less than $15,000')": 24.399999618530273,
+    "('Race/Ethnicity', 'American Indian/Alaska Native')": 31.100000381469727,
+    "('Race/Ethnicity', 'Hawaiian/Pacific Islander')": 31.100000381469727,
+    "('Race/Ethnicity', 'Hispanic')": 26.700000762939453,
+    "('Race/Ethnicity', 'Non-Hispanic White')": 31.399999618530273,
+    "('Race/Ethnicity', 'Other')": 31.100000381469727
+  }
+}

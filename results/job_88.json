@@ -1,0 +1,32 @@
+{
+  "Maryland": {
+    "('Age (years)', '18 - 24')": 18.600000381469727,
+    "('Age (years)', '25 - 34')": 20.900001525878906,
+    "('Age (years)', '35 - 44')": 22.25,
+    "('Age (years)', '45 - 54')": 21.700000762939453,
+    "('Age (years)', '55 - 64')": 24.399999618530273,
+    "('Age (years)', '65 or older')": 30.5,
+    "('Education', 'College graduate')": 13.475000381469727,
+    "('Education', 'High school graduate')": 30.19999885559082,
+    "('Education', 'Less than high school')": 42.599998474121094,
+    "('Education', 'Some college or technical school')": 21.950000762939453,
+    "('Gender', 'Female')": 25.5,
+    "('Gender', 'Male')": 21.149999618530273,
+    "('Income', '$15,000 - $24,999')": 36.66666793823242,
+    "('Income', '$25,000 - $34,999')": 35.10000228881836,
+    "('Income', '$35,000 - $49,999')": 26.600000381469727,
+    "('Income', '$50,000 - $74,999')": 25.100000381469727,
+    "('Income', '$75,000 or greater')": 14.166666984558105,
+    "('Income', 'Data not reported')": 26.69999885559082,
+    "('Income', 'Less than $15,000')": 38.89999771118164,
+    "('Race/Ethnicity', '2 or more races')": 25.5,
+    "('Race/Ethnicity', 'American Indian/Alaska Native')": 24.700000762939453,
+    "('Race/Ethnicity', 'Asian')": 20.700000762939453,
+    "('Race/Ethnicity', 'Hawaiian/Pacific Islander')": 25.600000381469727,
+    "('Race/Ethnicity', 'Hispanic')": 30.066667556762695,
+    "('Race/Ethnicity', 'Non-Hispanic Black')": 23.700000762939453,
+    "('Race/Ethnicity', 'Non-Hispanic White')": 19.200000762939453,
+    "('Race/Ethnicity', 'Other')": 19.399999618530273,
+    "('Total', 'Total')": 23.600000381469727
+  }
+}

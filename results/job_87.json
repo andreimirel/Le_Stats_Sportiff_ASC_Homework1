@@ -1,0 +1,22 @@
+{
+  "Maryland": {
+    "('Age (years)', '18 - 24')": 53.849998474121094,
+    "('Age (years)', '25 - 34')": 46.849998474121094,
+    "('Age (years)', '65 or older')": 46.79999923706055,
+    "('Education', 'College graduate')": 59.349998474121094,
+    "('Education', 'High school graduate')": 44.5,
+    "('Education', 'Less than high school')": 35.70000076293945,
+    "('Education', 'Some college or technical school')": 55.70000076293945,
+    "('Income', '$15,000 - $24,999')": 38.94999694824219,
+    "('Income', '$25,000 - $34,999')": 47.5,
+    "('Income', '$75,000 or greater')": 58.5,
+    "('Income', 'Less than $15,000')": 38.099998474121094,
+    "('Race/Ethnicity', '2 or more races')": 51.5,
+    "('Race/Ethnicity', 'Asian')": 49.80000305175781,
+    "('Race/Ethnicity', 'Hawaiian/Pacific Islander')": 49.79999923706055,
+    "('Race/Ethnicity', 'Hispanic')": 47.099998474121094,
+    "('Race/Ethnicity', 'Non-Hispanic Black')": 49.05000305175781,
+    "('Race/Ethnicity', 'Other')": 35.099998474121094,
+    "('Total', 'Total')": 49.650001525878906
+  }
+}
