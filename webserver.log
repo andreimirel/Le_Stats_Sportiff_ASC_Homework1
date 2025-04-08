@@ -1452,3 +1452,1431 @@
 2025-04-08 21:11:10,074 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:11:10] "GET /api/get_results/114 HTTP/1.1" 200 -
 2025-04-08 21:11:10,278 DEBUG routes - Fetching results for job_id: 114
 2025-04-08 21:11:10,278 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:11:10] "GET /api/get_results/114 HTTP/1.1" 200 -
+2025-04-08 21:46:41,850 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 21:46:41,850 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-08 21:47:39,449 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:47:39,451 DEBUG routes - Job submitted with id: 1
+2025-04-08 21:47:39,452 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:39,456 DEBUG routes - Fetching results for job_id: 1
+2025-04-08 21:47:39,457 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "GET /api/get_results/1 HTTP/1.1" 200 -
+2025-04-08 21:47:39,663 DEBUG routes - Fetching results for job_id: 1
+2025-04-08 21:47:39,664 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "GET /api/get_results/1 HTTP/1.1" 200 -
+2025-04-08 21:47:39,666 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:47:39,667 DEBUG routes - Job submitted with id: 2
+2025-04-08 21:47:39,668 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:39,670 DEBUG routes - Fetching results for job_id: 2
+2025-04-08 21:47:39,671 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "GET /api/get_results/2 HTTP/1.1" 200 -
+2025-04-08 21:47:39,874 DEBUG routes - Fetching results for job_id: 2
+2025-04-08 21:47:39,875 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "GET /api/get_results/2 HTTP/1.1" 200 -
+2025-04-08 21:47:39,877 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:47:39,879 DEBUG routes - Job submitted with id: 3
+2025-04-08 21:47:39,879 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:39,882 DEBUG routes - Fetching results for job_id: 3
+2025-04-08 21:47:39,883 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:39] "GET /api/get_results/3 HTTP/1.1" 200 -
+2025-04-08 21:47:40,085 DEBUG routes - Fetching results for job_id: 3
+2025-04-08 21:47:40,085 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/3 HTTP/1.1" 200 -
+2025-04-08 21:47:40,088 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:47:40,089 DEBUG routes - Job submitted with id: 4
+2025-04-08 21:47:40,090 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,093 DEBUG routes - Fetching results for job_id: 4
+2025-04-08 21:47:40,094 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/4 HTTP/1.1" 200 -
+2025-04-08 21:47:40,097 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:40,098 DEBUG routes - Job submitted with id: 5
+2025-04-08 21:47:40,098 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,100 DEBUG routes - Fetching results for job_id: 5
+2025-04-08 21:47:40,100 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,309 DEBUG routes - Fetching results for job_id: 5
+2025-04-08 21:47:40,309 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,312 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:47:40,312 DEBUG routes - Job submitted with id: 6
+2025-04-08 21:47:40,313 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,316 DEBUG routes - Fetching results for job_id: 6
+2025-04-08 21:47:40,318 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/6 HTTP/1.1" 200 -
+2025-04-08 21:47:40,525 DEBUG routes - Fetching results for job_id: 6
+2025-04-08 21:47:40,526 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/6 HTTP/1.1" 200 -
+2025-04-08 21:47:40,529 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:40,530 DEBUG routes - Job submitted with id: 7
+2025-04-08 21:47:40,530 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,533 DEBUG routes - Fetching results for job_id: 7
+2025-04-08 21:47:40,533 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/7 HTTP/1.1" 200 -
+2025-04-08 21:47:40,743 DEBUG routes - Fetching results for job_id: 7
+2025-04-08 21:47:40,743 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/7 HTTP/1.1" 200 -
+2025-04-08 21:47:40,747 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:40,747 DEBUG routes - Job submitted with id: 8
+2025-04-08 21:47:40,749 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,753 DEBUG routes - Fetching results for job_id: 8
+2025-04-08 21:47:40,753 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/8 HTTP/1.1" 200 -
+2025-04-08 21:47:40,961 DEBUG routes - Fetching results for job_id: 8
+2025-04-08 21:47:40,961 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/8 HTTP/1.1" 200 -
+2025-04-08 21:47:40,964 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:40,966 DEBUG routes - Job submitted with id: 9
+2025-04-08 21:47:40,966 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:47:40,968 DEBUG routes - Fetching results for job_id: 9
+2025-04-08 21:47:40,968 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:40] "GET /api/get_results/9 HTTP/1.1" 200 -
+2025-04-08 21:47:41,177 DEBUG routes - Fetching results for job_id: 9
+2025-04-08 21:47:41,177 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:41] "GET /api/get_results/9 HTTP/1.1" 200 -
+2025-04-08 21:47:46,175 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:47:46,176 DEBUG routes - Job submitted with id: 10
+2025-04-08 21:47:46,176 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:46,180 DEBUG routes - Fetching results for job_id: 10
+2025-04-08 21:47:46,181 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "GET /api/get_results/10 HTTP/1.1" 200 -
+2025-04-08 21:47:46,389 DEBUG routes - Fetching results for job_id: 10
+2025-04-08 21:47:46,389 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "GET /api/get_results/10 HTTP/1.1" 200 -
+2025-04-08 21:47:46,596 DEBUG routes - Fetching results for job_id: 10
+2025-04-08 21:47:46,597 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "GET /api/get_results/10 HTTP/1.1" 200 -
+2025-04-08 21:47:46,600 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:47:46,600 DEBUG routes - Job submitted with id: 11
+2025-04-08 21:47:46,601 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:46,602 DEBUG routes - Fetching results for job_id: 11
+2025-04-08 21:47:46,602 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "GET /api/get_results/11 HTTP/1.1" 200 -
+2025-04-08 21:47:46,812 DEBUG routes - Fetching results for job_id: 11
+2025-04-08 21:47:46,813 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "GET /api/get_results/11 HTTP/1.1" 200 -
+2025-04-08 21:47:46,817 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:47:46,818 DEBUG routes - Job submitted with id: 12
+2025-04-08 21:47:46,818 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:46,823 DEBUG routes - Fetching results for job_id: 12
+2025-04-08 21:47:46,823 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:46] "GET /api/get_results/12 HTTP/1.1" 200 -
+2025-04-08 21:47:47,029 DEBUG routes - Fetching results for job_id: 12
+2025-04-08 21:47:47,029 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/12 HTTP/1.1" 200 -
+2025-04-08 21:47:47,033 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:47:47,034 DEBUG routes - Job submitted with id: 13
+2025-04-08 21:47:47,034 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:47,038 DEBUG routes - Fetching results for job_id: 13
+2025-04-08 21:47:47,038 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/13 HTTP/1.1" 200 -
+2025-04-08 21:47:47,247 DEBUG routes - Fetching results for job_id: 13
+2025-04-08 21:47:47,248 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/13 HTTP/1.1" 200 -
+2025-04-08 21:47:47,251 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:47,252 DEBUG routes - Job submitted with id: 14
+2025-04-08 21:47:47,253 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:47,256 DEBUG routes - Fetching results for job_id: 14
+2025-04-08 21:47:47,257 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/14 HTTP/1.1" 200 -
+2025-04-08 21:47:47,462 DEBUG routes - Fetching results for job_id: 14
+2025-04-08 21:47:47,463 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/14 HTTP/1.1" 200 -
+2025-04-08 21:47:47,466 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:47:47,467 DEBUG routes - Job submitted with id: 15
+2025-04-08 21:47:47,467 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:47,472 DEBUG routes - Fetching results for job_id: 15
+2025-04-08 21:47:47,473 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/15 HTTP/1.1" 200 -
+2025-04-08 21:47:47,682 DEBUG routes - Fetching results for job_id: 15
+2025-04-08 21:47:47,682 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/15 HTTP/1.1" 200 -
+2025-04-08 21:47:47,686 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:47,687 DEBUG routes - Job submitted with id: 16
+2025-04-08 21:47:47,687 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:47,692 DEBUG routes - Fetching results for job_id: 16
+2025-04-08 21:47:47,695 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/16 HTTP/1.1" 200 -
+2025-04-08 21:47:47,900 DEBUG routes - Fetching results for job_id: 16
+2025-04-08 21:47:47,900 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/16 HTTP/1.1" 200 -
+2025-04-08 21:47:47,904 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:47,905 DEBUG routes - Job submitted with id: 17
+2025-04-08 21:47:47,905 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:47,909 DEBUG routes - Fetching results for job_id: 17
+2025-04-08 21:47:47,910 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:47] "GET /api/get_results/17 HTTP/1.1" 200 -
+2025-04-08 21:47:48,117 DEBUG routes - Fetching results for job_id: 17
+2025-04-08 21:47:48,118 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/17 HTTP/1.1" 200 -
+2025-04-08 21:47:48,122 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:48,122 DEBUG routes - Job submitted with id: 18
+2025-04-08 21:47:48,123 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:48,126 DEBUG routes - Fetching results for job_id: 18
+2025-04-08 21:47:48,127 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/18 HTTP/1.1" 200 -
+2025-04-08 21:47:48,336 DEBUG routes - Fetching results for job_id: 18
+2025-04-08 21:47:48,337 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/18 HTTP/1.1" 200 -
+2025-04-08 21:47:48,340 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:47:48,341 DEBUG routes - Job submitted with id: 19
+2025-04-08 21:47:48,341 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:48,346 DEBUG routes - Fetching results for job_id: 19
+2025-04-08 21:47:48,346 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/19 HTTP/1.1" 200 -
+2025-04-08 21:47:48,552 DEBUG routes - Fetching results for job_id: 19
+2025-04-08 21:47:48,553 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/19 HTTP/1.1" 200 -
+2025-04-08 21:47:48,555 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:47:48,556 DEBUG routes - Job submitted with id: 20
+2025-04-08 21:47:48,556 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:48,559 DEBUG routes - Fetching results for job_id: 20
+2025-04-08 21:47:48,561 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/20 HTTP/1.1" 200 -
+2025-04-08 21:47:48,766 DEBUG routes - Fetching results for job_id: 20
+2025-04-08 21:47:48,767 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/20 HTTP/1.1" 200 -
+2025-04-08 21:47:48,770 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:47:48,770 DEBUG routes - Job submitted with id: 21
+2025-04-08 21:47:48,770 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:48,773 DEBUG routes - Fetching results for job_id: 21
+2025-04-08 21:47:48,774 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/21 HTTP/1.1" 200 -
+2025-04-08 21:47:48,981 DEBUG routes - Fetching results for job_id: 21
+2025-04-08 21:47:48,981 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/21 HTTP/1.1" 200 -
+2025-04-08 21:47:48,984 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:47:48,984 DEBUG routes - Job submitted with id: 22
+2025-04-08 21:47:48,984 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:48,988 DEBUG routes - Fetching results for job_id: 22
+2025-04-08 21:47:48,988 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:48] "GET /api/get_results/22 HTTP/1.1" 200 -
+2025-04-08 21:47:49,196 DEBUG routes - Fetching results for job_id: 22
+2025-04-08 21:47:49,196 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/22 HTTP/1.1" 200 -
+2025-04-08 21:47:49,199 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:49,200 DEBUG routes - Job submitted with id: 23
+2025-04-08 21:47:49,200 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:49,203 DEBUG routes - Fetching results for job_id: 23
+2025-04-08 21:47:49,204 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/23 HTTP/1.1" 200 -
+2025-04-08 21:47:49,411 DEBUG routes - Fetching results for job_id: 23
+2025-04-08 21:47:49,412 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/23 HTTP/1.1" 200 -
+2025-04-08 21:47:49,415 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:47:49,415 DEBUG routes - Job submitted with id: 24
+2025-04-08 21:47:49,416 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:49,419 DEBUG routes - Fetching results for job_id: 24
+2025-04-08 21:47:49,420 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/24 HTTP/1.1" 200 -
+2025-04-08 21:47:49,629 DEBUG routes - Fetching results for job_id: 24
+2025-04-08 21:47:49,630 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/24 HTTP/1.1" 200 -
+2025-04-08 21:47:49,632 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:49,633 DEBUG routes - Job submitted with id: 25
+2025-04-08 21:47:49,633 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:49,636 DEBUG routes - Fetching results for job_id: 25
+2025-04-08 21:47:49,636 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/25 HTTP/1.1" 200 -
+2025-04-08 21:47:49,843 DEBUG routes - Fetching results for job_id: 25
+2025-04-08 21:47:49,843 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/25 HTTP/1.1" 200 -
+2025-04-08 21:47:49,846 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:49,847 DEBUG routes - Job submitted with id: 26
+2025-04-08 21:47:49,847 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:49,851 DEBUG routes - Fetching results for job_id: 26
+2025-04-08 21:47:49,852 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:49] "GET /api/get_results/26 HTTP/1.1" 200 -
+2025-04-08 21:47:50,059 DEBUG routes - Fetching results for job_id: 26
+2025-04-08 21:47:50,059 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/26 HTTP/1.1" 200 -
+2025-04-08 21:47:50,062 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:50,063 DEBUG routes - Job submitted with id: 27
+2025-04-08 21:47:50,063 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:47:50,066 DEBUG routes - Fetching results for job_id: 27
+2025-04-08 21:47:50,067 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/27 HTTP/1.1" 200 -
+2025-04-08 21:47:50,273 DEBUG routes - Fetching results for job_id: 27
+2025-04-08 21:47:50,274 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/27 HTTP/1.1" 200 -
+2025-04-08 21:47:50,278 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:47:50,279 DEBUG routes - Job submitted with id: 28
+2025-04-08 21:47:50,279 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:50,282 DEBUG routes - Fetching results for job_id: 28
+2025-04-08 21:47:50,282 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/28 HTTP/1.1" 200 -
+2025-04-08 21:47:50,489 DEBUG routes - Fetching results for job_id: 28
+2025-04-08 21:47:50,490 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/28 HTTP/1.1" 200 -
+2025-04-08 21:47:50,511 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:47:50,511 DEBUG routes - Job submitted with id: 29
+2025-04-08 21:47:50,513 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:50,515 DEBUG routes - Fetching results for job_id: 29
+2025-04-08 21:47:50,516 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/29 HTTP/1.1" 200 -
+2025-04-08 21:47:50,720 DEBUG routes - Fetching results for job_id: 29
+2025-04-08 21:47:50,722 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/29 HTTP/1.1" 200 -
+2025-04-08 21:47:50,743 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:47:50,743 DEBUG routes - Job submitted with id: 30
+2025-04-08 21:47:50,743 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:50,749 DEBUG routes - Fetching results for job_id: 30
+2025-04-08 21:47:50,750 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/30 HTTP/1.1" 200 -
+2025-04-08 21:47:50,955 DEBUG routes - Fetching results for job_id: 30
+2025-04-08 21:47:50,957 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/30 HTTP/1.1" 200 -
+2025-04-08 21:47:50,975 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:47:50,975 DEBUG routes - Job submitted with id: 31
+2025-04-08 21:47:50,977 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:50,979 DEBUG routes - Fetching results for job_id: 31
+2025-04-08 21:47:50,980 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:50] "GET /api/get_results/31 HTTP/1.1" 200 -
+2025-04-08 21:47:51,186 DEBUG routes - Fetching results for job_id: 31
+2025-04-08 21:47:51,187 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/31 HTTP/1.1" 200 -
+2025-04-08 21:47:51,199 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:51,202 DEBUG routes - Job submitted with id: 32
+2025-04-08 21:47:51,204 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:51,207 DEBUG routes - Fetching results for job_id: 32
+2025-04-08 21:47:51,208 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/32 HTTP/1.1" 200 -
+2025-04-08 21:47:51,222 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:47:51,223 DEBUG routes - Job submitted with id: 33
+2025-04-08 21:47:51,224 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:51,226 DEBUG routes - Fetching results for job_id: 33
+2025-04-08 21:47:51,226 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/33 HTTP/1.1" 200 -
+2025-04-08 21:47:51,433 DEBUG routes - Fetching results for job_id: 33
+2025-04-08 21:47:51,434 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/33 HTTP/1.1" 200 -
+2025-04-08 21:47:51,446 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:51,446 DEBUG routes - Job submitted with id: 34
+2025-04-08 21:47:51,448 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:51,451 DEBUG routes - Fetching results for job_id: 34
+2025-04-08 21:47:51,453 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/34 HTTP/1.1" 200 -
+2025-04-08 21:47:51,659 DEBUG routes - Fetching results for job_id: 34
+2025-04-08 21:47:51,660 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/34 HTTP/1.1" 200 -
+2025-04-08 21:47:51,675 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:51,675 DEBUG routes - Job submitted with id: 35
+2025-04-08 21:47:51,676 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:51,678 DEBUG routes - Fetching results for job_id: 35
+2025-04-08 21:47:51,680 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/35 HTTP/1.1" 200 -
+2025-04-08 21:47:51,885 DEBUG routes - Fetching results for job_id: 35
+2025-04-08 21:47:51,886 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/35 HTTP/1.1" 200 -
+2025-04-08 21:47:51,901 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:51,902 DEBUG routes - Job submitted with id: 36
+2025-04-08 21:47:51,902 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:51,906 DEBUG routes - Fetching results for job_id: 36
+2025-04-08 21:47:51,906 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:51] "GET /api/get_results/36 HTTP/1.1" 200 -
+2025-04-08 21:47:52,111 DEBUG routes - Fetching results for job_id: 36
+2025-04-08 21:47:52,112 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/36 HTTP/1.1" 200 -
+2025-04-08 21:47:52,127 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Delaware'}
+2025-04-08 21:47:52,128 DEBUG routes - Job submitted with id: 37
+2025-04-08 21:47:52,128 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:52,134 DEBUG routes - Fetching results for job_id: 37
+2025-04-08 21:47:52,135 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/37 HTTP/1.1" 200 -
+2025-04-08 21:47:52,340 DEBUG routes - Fetching results for job_id: 37
+2025-04-08 21:47:52,341 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/37 HTTP/1.1" 200 -
+2025-04-08 21:47:52,344 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Massachusetts'}
+2025-04-08 21:47:52,344 DEBUG routes - Job submitted with id: 38
+2025-04-08 21:47:52,344 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:52,347 DEBUG routes - Fetching results for job_id: 38
+2025-04-08 21:47:52,349 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/38 HTTP/1.1" 200 -
+2025-04-08 21:47:52,556 DEBUG routes - Fetching results for job_id: 38
+2025-04-08 21:47:52,556 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/38 HTTP/1.1" 200 -
+2025-04-08 21:47:52,558 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Minnesota'}
+2025-04-08 21:47:52,559 DEBUG routes - Job submitted with id: 39
+2025-04-08 21:47:52,559 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:52,563 DEBUG routes - Fetching results for job_id: 39
+2025-04-08 21:47:52,563 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/39 HTTP/1.1" 200 -
+2025-04-08 21:47:52,770 DEBUG routes - Fetching results for job_id: 39
+2025-04-08 21:47:52,771 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/39 HTTP/1.1" 200 -
+2025-04-08 21:47:52,774 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Florida'}
+2025-04-08 21:47:52,774 DEBUG routes - Job submitted with id: 40
+2025-04-08 21:47:52,775 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:52,779 DEBUG routes - Fetching results for job_id: 40
+2025-04-08 21:47:52,779 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/40 HTTP/1.1" 200 -
+2025-04-08 21:47:52,987 DEBUG routes - Fetching results for job_id: 40
+2025-04-08 21:47:52,988 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "GET /api/get_results/40 HTTP/1.1" 200 -
+2025-04-08 21:47:52,991 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Minnesota'}
+2025-04-08 21:47:52,991 DEBUG routes - Job submitted with id: 41
+2025-04-08 21:47:52,995 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:52] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,002 DEBUG routes - Fetching results for job_id: 41
+2025-04-08 21:47:53,002 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/41 HTTP/1.1" 200 -
+2025-04-08 21:47:53,005 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Minnesota'}
+2025-04-08 21:47:53,005 DEBUG routes - Job submitted with id: 42
+2025-04-08 21:47:53,005 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,009 DEBUG routes - Fetching results for job_id: 42
+2025-04-08 21:47:53,009 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/42 HTTP/1.1" 200 -
+2025-04-08 21:47:53,217 DEBUG routes - Fetching results for job_id: 42
+2025-04-08 21:47:53,217 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/42 HTTP/1.1" 200 -
+2025-04-08 21:47:53,220 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Florida'}
+2025-04-08 21:47:53,220 DEBUG routes - Job submitted with id: 43
+2025-04-08 21:47:53,220 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,223 DEBUG routes - Fetching results for job_id: 43
+2025-04-08 21:47:53,224 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/43 HTTP/1.1" 200 -
+2025-04-08 21:47:53,430 DEBUG routes - Fetching results for job_id: 43
+2025-04-08 21:47:53,430 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/43 HTTP/1.1" 200 -
+2025-04-08 21:47:53,433 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Minnesota'}
+2025-04-08 21:47:53,433 DEBUG routes - Job submitted with id: 44
+2025-04-08 21:47:53,434 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,443 DEBUG routes - Fetching results for job_id: 44
+2025-04-08 21:47:53,444 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/44 HTTP/1.1" 200 -
+2025-04-08 21:47:53,446 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Florida'}
+2025-04-08 21:47:53,446 DEBUG routes - Job submitted with id: 45
+2025-04-08 21:47:53,447 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,450 DEBUG routes - Fetching results for job_id: 45
+2025-04-08 21:47:53,451 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/45 HTTP/1.1" 200 -
+2025-04-08 21:47:53,657 DEBUG routes - Fetching results for job_id: 45
+2025-04-08 21:47:53,657 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/45 HTTP/1.1" 200 -
+2025-04-08 21:47:53,662 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Delaware'}
+2025-04-08 21:47:53,662 DEBUG routes - Job submitted with id: 46
+2025-04-08 21:47:53,663 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,669 DEBUG routes - Fetching results for job_id: 46
+2025-04-08 21:47:53,669 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/46 HTTP/1.1" 200 -
+2025-04-08 21:47:53,877 DEBUG routes - Fetching results for job_id: 46
+2025-04-08 21:47:53,878 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/46 HTTP/1.1" 200 -
+2025-04-08 21:47:53,882 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Delaware'}
+2025-04-08 21:47:53,882 DEBUG routes - Job submitted with id: 47
+2025-04-08 21:47:53,882 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:53,887 DEBUG routes - Fetching results for job_id: 47
+2025-04-08 21:47:53,888 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:53] "GET /api/get_results/47 HTTP/1.1" 200 -
+2025-04-08 21:47:54,097 DEBUG routes - Fetching results for job_id: 47
+2025-04-08 21:47:54,097 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/47 HTTP/1.1" 200 -
+2025-04-08 21:47:54,100 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Delaware'}
+2025-04-08 21:47:54,101 DEBUG routes - Job submitted with id: 48
+2025-04-08 21:47:54,101 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:54,108 DEBUG routes - Fetching results for job_id: 48
+2025-04-08 21:47:54,109 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/48 HTTP/1.1" 200 -
+2025-04-08 21:47:54,321 DEBUG routes - Fetching results for job_id: 48
+2025-04-08 21:47:54,321 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/48 HTTP/1.1" 200 -
+2025-04-08 21:47:54,325 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Delaware'}
+2025-04-08 21:47:54,325 DEBUG routes - Job submitted with id: 49
+2025-04-08 21:47:54,325 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:54,329 DEBUG routes - Fetching results for job_id: 49
+2025-04-08 21:47:54,329 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/49 HTTP/1.1" 200 -
+2025-04-08 21:47:54,536 DEBUG routes - Fetching results for job_id: 49
+2025-04-08 21:47:54,536 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/49 HTTP/1.1" 200 -
+2025-04-08 21:47:54,539 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Massachusetts'}
+2025-04-08 21:47:54,540 DEBUG routes - Job submitted with id: 50
+2025-04-08 21:47:54,540 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:54,545 DEBUG routes - Fetching results for job_id: 50
+2025-04-08 21:47:54,548 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/50 HTTP/1.1" 200 -
+2025-04-08 21:47:54,755 DEBUG routes - Fetching results for job_id: 50
+2025-04-08 21:47:54,756 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/50 HTTP/1.1" 200 -
+2025-04-08 21:47:54,759 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Massachusetts'}
+2025-04-08 21:47:54,760 DEBUG routes - Job submitted with id: 51
+2025-04-08 21:47:54,760 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:54,767 DEBUG routes - Fetching results for job_id: 51
+2025-04-08 21:47:54,768 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/51 HTTP/1.1" 200 -
+2025-04-08 21:47:54,976 DEBUG routes - Fetching results for job_id: 51
+2025-04-08 21:47:54,977 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/51 HTTP/1.1" 200 -
+2025-04-08 21:47:54,981 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Massachusetts'}
+2025-04-08 21:47:54,981 DEBUG routes - Job submitted with id: 52
+2025-04-08 21:47:54,981 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:54,985 DEBUG routes - Fetching results for job_id: 52
+2025-04-08 21:47:54,986 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:54] "GET /api/get_results/52 HTTP/1.1" 200 -
+2025-04-08 21:47:55,194 DEBUG routes - Fetching results for job_id: 52
+2025-04-08 21:47:55,194 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/52 HTTP/1.1" 200 -
+2025-04-08 21:47:55,198 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Florida'}
+2025-04-08 21:47:55,199 DEBUG routes - Job submitted with id: 53
+2025-04-08 21:47:55,199 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,203 DEBUG routes - Fetching results for job_id: 53
+2025-04-08 21:47:55,204 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/53 HTTP/1.1" 200 -
+2025-04-08 21:47:55,415 DEBUG routes - Fetching results for job_id: 53
+2025-04-08 21:47:55,416 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/53 HTTP/1.1" 200 -
+2025-04-08 21:47:55,419 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Florida'}
+2025-04-08 21:47:55,419 DEBUG routes - Job submitted with id: 54
+2025-04-08 21:47:55,419 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,423 DEBUG routes - Fetching results for job_id: 54
+2025-04-08 21:47:55,426 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/54 HTTP/1.1" 200 -
+2025-04-08 21:47:55,059 DEBUG routes - Fetching results for job_id: 54
+2025-04-08 21:47:55,059 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/54 HTTP/1.1" 200 -
+2025-04-08 21:47:55,061 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Minnesota'}
+2025-04-08 21:47:55,062 DEBUG routes - Job submitted with id: 55
+2025-04-08 21:47:55,062 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,066 DEBUG routes - Fetching results for job_id: 55
+2025-04-08 21:47:55,066 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/55 HTTP/1.1" 200 -
+2025-04-08 21:47:55,273 DEBUG routes - Fetching results for job_id: 55
+2025-04-08 21:47:55,273 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/55 HTTP/1.1" 200 -
+2025-04-08 21:47:55,276 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Massachusetts'}
+2025-04-08 21:47:55,276 DEBUG routes - Job submitted with id: 56
+2025-04-08 21:47:55,277 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,281 DEBUG routes - Fetching results for job_id: 56
+2025-04-08 21:47:55,282 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/56 HTTP/1.1" 200 -
+2025-04-08 21:47:55,491 DEBUG routes - Fetching results for job_id: 56
+2025-04-08 21:47:55,492 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/56 HTTP/1.1" 200 -
+2025-04-08 21:47:55,495 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Wyoming'}
+2025-04-08 21:47:55,497 DEBUG routes - Job submitted with id: 57
+2025-04-08 21:47:55,497 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,503 DEBUG routes - Fetching results for job_id: 57
+2025-04-08 21:47:55,503 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/57 HTTP/1.1" 200 -
+2025-04-08 21:47:55,507 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Connecticut'}
+2025-04-08 21:47:55,508 DEBUG routes - Job submitted with id: 58
+2025-04-08 21:47:55,509 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,513 DEBUG routes - Fetching results for job_id: 58
+2025-04-08 21:47:55,514 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/58 HTTP/1.1" 200 -
+2025-04-08 21:47:55,517 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Colorado'}
+2025-04-08 21:47:55,517 DEBUG routes - Job submitted with id: 59
+2025-04-08 21:47:55,519 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,526 DEBUG routes - Fetching results for job_id: 59
+2025-04-08 21:47:55,526 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/59 HTTP/1.1" 200 -
+2025-04-08 21:47:55,529 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Oregon'}
+2025-04-08 21:47:55,530 DEBUG routes - Job submitted with id: 60
+2025-04-08 21:47:55,531 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,537 DEBUG routes - Fetching results for job_id: 60
+2025-04-08 21:47:55,537 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/60 HTTP/1.1" 200 -
+2025-04-08 21:47:55,540 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Colorado'}
+2025-04-08 21:47:55,541 DEBUG routes - Job submitted with id: 61
+2025-04-08 21:47:55,542 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,548 DEBUG routes - Fetching results for job_id: 61
+2025-04-08 21:47:55,549 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/61 HTTP/1.1" 200 -
+2025-04-08 21:47:55,552 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Colorado'}
+2025-04-08 21:47:55,553 DEBUG routes - Job submitted with id: 62
+2025-04-08 21:47:55,553 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,556 DEBUG routes - Fetching results for job_id: 62
+2025-04-08 21:47:55,560 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/62 HTTP/1.1" 200 -
+2025-04-08 21:47:55,563 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Oregon'}
+2025-04-08 21:47:55,565 DEBUG routes - Job submitted with id: 63
+2025-04-08 21:47:55,565 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,570 DEBUG routes - Fetching results for job_id: 63
+2025-04-08 21:47:55,571 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/63 HTTP/1.1" 200 -
+2025-04-08 21:47:55,573 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Colorado'}
+2025-04-08 21:47:55,576 DEBUG routes - Job submitted with id: 64
+2025-04-08 21:47:55,580 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,581 DEBUG routes - Fetching results for job_id: 64
+2025-04-08 21:47:55,582 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/64 HTTP/1.1" 200 -
+2025-04-08 21:47:55,585 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Oregon'}
+2025-04-08 21:47:55,587 DEBUG routes - Job submitted with id: 65
+2025-04-08 21:47:55,587 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,592 DEBUG routes - Fetching results for job_id: 65
+2025-04-08 21:47:55,593 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/65 HTTP/1.1" 200 -
+2025-04-08 21:47:55,595 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Wyoming'}
+2025-04-08 21:47:55,596 DEBUG routes - Job submitted with id: 66
+2025-04-08 21:47:55,597 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,603 DEBUG routes - Fetching results for job_id: 66
+2025-04-08 21:47:55,603 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/66 HTTP/1.1" 200 -
+2025-04-08 21:47:55,606 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Wyoming'}
+2025-04-08 21:47:55,608 DEBUG routes - Job submitted with id: 67
+2025-04-08 21:47:55,608 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,614 DEBUG routes - Fetching results for job_id: 67
+2025-04-08 21:47:55,614 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/67 HTTP/1.1" 200 -
+2025-04-08 21:47:55,617 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Wyoming'}
+2025-04-08 21:47:55,619 DEBUG routes - Job submitted with id: 68
+2025-04-08 21:47:55,619 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,625 DEBUG routes - Fetching results for job_id: 68
+2025-04-08 21:47:55,626 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/68 HTTP/1.1" 200 -
+2025-04-08 21:47:55,630 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Wyoming'}
+2025-04-08 21:47:55,631 DEBUG routes - Job submitted with id: 69
+2025-04-08 21:47:55,632 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,634 DEBUG routes - Fetching results for job_id: 69
+2025-04-08 21:47:55,636 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/69 HTTP/1.1" 200 -
+2025-04-08 21:47:55,842 DEBUG routes - Fetching results for job_id: 69
+2025-04-08 21:47:55,842 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/69 HTTP/1.1" 200 -
+2025-04-08 21:47:55,846 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Connecticut'}
+2025-04-08 21:47:55,847 DEBUG routes - Job submitted with id: 70
+2025-04-08 21:47:55,848 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,853 DEBUG routes - Fetching results for job_id: 70
+2025-04-08 21:47:55,854 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/70 HTTP/1.1" 200 -
+2025-04-08 21:47:55,857 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Connecticut'}
+2025-04-08 21:47:55,858 DEBUG routes - Job submitted with id: 71
+2025-04-08 21:47:55,858 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,863 DEBUG routes - Fetching results for job_id: 71
+2025-04-08 21:47:55,863 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/71 HTTP/1.1" 200 -
+2025-04-08 21:47:55,866 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Connecticut'}
+2025-04-08 21:47:55,866 DEBUG routes - Job submitted with id: 72
+2025-04-08 21:47:55,867 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,871 DEBUG routes - Fetching results for job_id: 72
+2025-04-08 21:47:55,874 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/72 HTTP/1.1" 200 -
+2025-04-08 21:47:55,877 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Oregon'}
+2025-04-08 21:47:55,878 DEBUG routes - Job submitted with id: 73
+2025-04-08 21:47:55,878 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,883 DEBUG routes - Fetching results for job_id: 73
+2025-04-08 21:47:55,884 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/73 HTTP/1.1" 200 -
+2025-04-08 21:47:55,886 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Oregon'}
+2025-04-08 21:47:55,887 DEBUG routes - Job submitted with id: 74
+2025-04-08 21:47:55,888 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,892 DEBUG routes - Fetching results for job_id: 74
+2025-04-08 21:47:55,892 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/74 HTTP/1.1" 200 -
+2025-04-08 21:47:55,895 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Colorado'}
+2025-04-08 21:47:55,896 DEBUG routes - Job submitted with id: 75
+2025-04-08 21:47:55,897 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,901 DEBUG routes - Fetching results for job_id: 75
+2025-04-08 21:47:55,901 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/75 HTTP/1.1" 200 -
+2025-04-08 21:47:55,904 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Connecticut'}
+2025-04-08 21:47:55,905 DEBUG routes - Job submitted with id: 76
+2025-04-08 21:47:55,906 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:47:55,911 DEBUG routes - Fetching results for job_id: 76
+2025-04-08 21:47:55,912 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/76 HTTP/1.1" 200 -
+2025-04-08 21:47:55,915 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Maryland'}
+2025-04-08 21:47:55,917 DEBUG routes - Job submitted with id: 77
+2025-04-08 21:47:55,917 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:55,924 DEBUG routes - Fetching results for job_id: 77
+2025-04-08 21:47:55,925 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/77 HTTP/1.1" 200 -
+2025-04-08 21:47:55,928 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Michigan'}
+2025-04-08 21:47:55,929 DEBUG routes - Job submitted with id: 78
+2025-04-08 21:47:55,929 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:55,935 DEBUG routes - Fetching results for job_id: 78
+2025-04-08 21:47:55,936 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/78 HTTP/1.1" 200 -
+2025-04-08 21:47:55,940 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'}
+2025-04-08 21:47:55,942 DEBUG routes - Job submitted with id: 79
+2025-04-08 21:47:55,942 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:55,945 DEBUG routes - Fetching results for job_id: 79
+2025-04-08 21:47:55,947 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:55] "GET /api/get_results/79 HTTP/1.1" 200 -
+2025-04-08 21:47:56,153 DEBUG routes - Fetching results for job_id: 79
+2025-04-08 21:47:56,153 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/79 HTTP/1.1" 200 -
+2025-04-08 21:47:56,157 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'}
+2025-04-08 21:47:56,158 DEBUG routes - Job submitted with id: 80
+2025-04-08 21:47:56,158 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,165 DEBUG routes - Fetching results for job_id: 80
+2025-04-08 21:47:56,166 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/80 HTTP/1.1" 200 -
+2025-04-08 21:47:56,170 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'West Virginia'}
+2025-04-08 21:47:56,171 DEBUG routes - Job submitted with id: 81
+2025-04-08 21:47:56,172 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,179 DEBUG routes - Fetching results for job_id: 81
+2025-04-08 21:47:56,180 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/81 HTTP/1.1" 200 -
+2025-04-08 21:47:56,184 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'}
+2025-04-08 21:47:56,184 DEBUG routes - Job submitted with id: 82
+2025-04-08 21:47:56,186 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,192 DEBUG routes - Fetching results for job_id: 82
+2025-04-08 21:47:56,192 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/82 HTTP/1.1" 200 -
+2025-04-08 21:47:56,197 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'}
+2025-04-08 21:47:56,198 DEBUG routes - Job submitted with id: 83
+2025-04-08 21:47:56,199 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,205 DEBUG routes - Fetching results for job_id: 83
+2025-04-08 21:47:56,206 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/83 HTTP/1.1" 200 -
+2025-04-08 21:47:56,209 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'}
+2025-04-08 21:47:56,209 DEBUG routes - Job submitted with id: 84
+2025-04-08 21:47:56,211 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,217 DEBUG routes - Fetching results for job_id: 84
+2025-04-08 21:47:56,217 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/84 HTTP/1.1" 200 -
+2025-04-08 21:47:56,222 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Indiana'}
+2025-04-08 21:47:56,224 DEBUG routes - Job submitted with id: 85
+2025-04-08 21:47:56,225 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,233 DEBUG routes - Fetching results for job_id: 85
+2025-04-08 21:47:56,234 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/85 HTTP/1.1" 200 -
+2025-04-08 21:47:56,238 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'}
+2025-04-08 21:47:56,238 DEBUG routes - Job submitted with id: 86
+2025-04-08 21:47:56,239 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,244 DEBUG routes - Fetching results for job_id: 86
+2025-04-08 21:47:56,246 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/86 HTTP/1.1" 200 -
+2025-04-08 21:47:56,250 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'}
+2025-04-08 21:47:56,251 DEBUG routes - Job submitted with id: 87
+2025-04-08 21:47:56,251 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,260 DEBUG routes - Fetching results for job_id: 87
+2025-04-08 21:47:56,260 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/87 HTTP/1.1" 200 -
+2025-04-08 21:47:56,265 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Maryland'}
+2025-04-08 21:47:56,267 DEBUG routes - Job submitted with id: 88
+2025-04-08 21:47:56,267 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,273 DEBUG routes - Fetching results for job_id: 88
+2025-04-08 21:47:56,274 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/88 HTTP/1.1" 200 -
+2025-04-08 21:47:56,278 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'}
+2025-04-08 21:47:56,279 DEBUG routes - Job submitted with id: 89
+2025-04-08 21:47:56,280 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,282 DEBUG routes - Fetching results for job_id: 89
+2025-04-08 21:47:56,286 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/89 HTTP/1.1" 200 -
+2025-04-08 21:47:56,290 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'}
+2025-04-08 21:47:56,291 DEBUG routes - Job submitted with id: 90
+2025-04-08 21:47:56,292 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,299 DEBUG routes - Fetching results for job_id: 90
+2025-04-08 21:47:56,299 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/90 HTTP/1.1" 200 -
+2025-04-08 21:47:56,303 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'}
+2025-04-08 21:47:56,305 DEBUG routes - Job submitted with id: 91
+2025-04-08 21:47:56,307 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,313 DEBUG routes - Fetching results for job_id: 91
+2025-04-08 21:47:56,313 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/91 HTTP/1.1" 200 -
+2025-04-08 21:47:56,317 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'}
+2025-04-08 21:47:56,318 DEBUG routes - Job submitted with id: 92
+2025-04-08 21:47:56,319 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,325 DEBUG routes - Fetching results for job_id: 92
+2025-04-08 21:47:56,325 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/92 HTTP/1.1" 200 -
+2025-04-08 21:47:56,331 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Indiana'}
+2025-04-08 21:47:56,331 DEBUG routes - Job submitted with id: 93
+2025-04-08 21:47:56,333 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,341 DEBUG routes - Fetching results for job_id: 93
+2025-04-08 21:47:56,341 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/93 HTTP/1.1" 200 -
+2025-04-08 21:47:56,345 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'}
+2025-04-08 21:47:56,347 DEBUG routes - Job submitted with id: 94
+2025-04-08 21:47:56,347 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,353 DEBUG routes - Fetching results for job_id: 94
+2025-04-08 21:47:56,353 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/94 HTTP/1.1" 200 -
+2025-04-08 21:47:56,356 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'West Virginia'}
+2025-04-08 21:47:56,358 DEBUG routes - Job submitted with id: 95
+2025-04-08 21:47:56,358 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,364 DEBUG routes - Fetching results for job_id: 95
+2025-04-08 21:47:56,365 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/95 HTTP/1.1" 200 -
+2025-04-08 21:47:56,370 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Michigan'}
+2025-04-08 21:47:56,371 DEBUG routes - Job submitted with id: 96
+2025-04-08 21:47:56,372 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:47:56,379 DEBUG routes - Fetching results for job_id: 96
+2025-04-08 21:47:56,381 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/96 HTTP/1.1" 200 -
+2025-04-08 21:47:56,385 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:47:56,386 DEBUG routes - Job submitted with id: 97
+2025-04-08 21:47:56,387 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:56,390 DEBUG routes - Fetching results for job_id: 97
+2025-04-08 21:47:56,391 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/97 HTTP/1.1" 200 -
+2025-04-08 21:47:56,598 DEBUG routes - Fetching results for job_id: 97
+2025-04-08 21:47:56,598 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/97 HTTP/1.1" 200 -
+2025-04-08 21:47:56,602 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:47:56,602 DEBUG routes - Job submitted with id: 98
+2025-04-08 21:47:56,602 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:56,604 DEBUG routes - Fetching results for job_id: 98
+2025-04-08 21:47:56,606 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/98 HTTP/1.1" 200 -
+2025-04-08 21:47:56,812 DEBUG routes - Fetching results for job_id: 98
+2025-04-08 21:47:56,812 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/98 HTTP/1.1" 200 -
+2025-04-08 21:47:56,817 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:47:56,817 DEBUG routes - Job submitted with id: 99
+2025-04-08 21:47:56,818 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:56,822 DEBUG routes - Fetching results for job_id: 99
+2025-04-08 21:47:56,822 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:56] "GET /api/get_results/99 HTTP/1.1" 200 -
+2025-04-08 21:47:57,029 DEBUG routes - Fetching results for job_id: 99
+2025-04-08 21:47:57,029 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/99 HTTP/1.1" 200 -
+2025-04-08 21:47:57,033 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:47:57,034 DEBUG routes - Job submitted with id: 100
+2025-04-08 21:47:57,034 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:57,037 DEBUG routes - Fetching results for job_id: 100
+2025-04-08 21:47:57,037 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/100 HTTP/1.1" 200 -
+2025-04-08 21:47:57,245 DEBUG routes - Fetching results for job_id: 100
+2025-04-08 21:47:57,245 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/100 HTTP/1.1" 200 -
+2025-04-08 21:47:57,248 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:57,250 DEBUG routes - Job submitted with id: 101
+2025-04-08 21:47:57,250 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:57,252 DEBUG routes - Fetching results for job_id: 101
+2025-04-08 21:47:57,252 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/101 HTTP/1.1" 200 -
+2025-04-08 21:47:57,460 DEBUG routes - Fetching results for job_id: 101
+2025-04-08 21:47:57,460 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/101 HTTP/1.1" 200 -
+2025-04-08 21:47:57,466 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:47:57,469 DEBUG routes - Job submitted with id: 102
+2025-04-08 21:47:57,469 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:57,476 DEBUG routes - Fetching results for job_id: 102
+2025-04-08 21:47:57,477 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/102 HTTP/1.1" 200 -
+2025-04-08 21:47:57,481 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:57,482 DEBUG routes - Job submitted with id: 103
+2025-04-08 21:47:57,482 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:57,484 DEBUG routes - Fetching results for job_id: 103
+2025-04-08 21:47:57,485 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/103 HTTP/1.1" 200 -
+2025-04-08 21:47:57,692 DEBUG routes - Fetching results for job_id: 103
+2025-04-08 21:47:57,693 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/103 HTTP/1.1" 200 -
+2025-04-08 21:47:57,697 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:57,698 DEBUG routes - Job submitted with id: 104
+2025-04-08 21:47:57,699 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:57,701 DEBUG routes - Fetching results for job_id: 104
+2025-04-08 21:47:57,701 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/104 HTTP/1.1" 200 -
+2025-04-08 21:47:57,909 DEBUG routes - Fetching results for job_id: 104
+2025-04-08 21:47:57,909 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/104 HTTP/1.1" 200 -
+2025-04-08 21:47:57,913 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:57,914 DEBUG routes - Job submitted with id: 105
+2025-04-08 21:47:57,914 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:47:57,916 DEBUG routes - Fetching results for job_id: 105
+2025-04-08 21:47:57,916 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:57] "GET /api/get_results/105 HTTP/1.1" 200 -
+2025-04-08 21:47:58,122 DEBUG routes - Fetching results for job_id: 105
+2025-04-08 21:47:58,122 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/105 HTTP/1.1" 200 -
+2025-04-08 21:47:58,125 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:47:58,127 DEBUG routes - Job submitted with id: 106
+2025-04-08 21:47:58,127 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:58,129 DEBUG routes - Fetching results for job_id: 106
+2025-04-08 21:47:58,130 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/106 HTTP/1.1" 200 -
+2025-04-08 21:47:58,337 DEBUG routes - Fetching results for job_id: 106
+2025-04-08 21:47:58,338 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/106 HTTP/1.1" 200 -
+2025-04-08 21:47:58,341 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:47:58,341 DEBUG routes - Job submitted with id: 107
+2025-04-08 21:47:58,342 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:58,344 DEBUG routes - Fetching results for job_id: 107
+2025-04-08 21:47:58,345 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/107 HTTP/1.1" 200 -
+2025-04-08 21:47:58,550 DEBUG routes - Fetching results for job_id: 107
+2025-04-08 21:47:58,550 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/107 HTTP/1.1" 200 -
+2025-04-08 21:47:58,554 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:47:58,555 DEBUG routes - Job submitted with id: 108
+2025-04-08 21:47:58,555 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:58,559 DEBUG routes - Fetching results for job_id: 108
+2025-04-08 21:47:58,560 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/108 HTTP/1.1" 200 -
+2025-04-08 21:47:58,766 DEBUG routes - Fetching results for job_id: 108
+2025-04-08 21:47:58,766 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/108 HTTP/1.1" 200 -
+2025-04-08 21:47:58,769 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:47:58,771 DEBUG routes - Job submitted with id: 109
+2025-04-08 21:47:58,771 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:58,775 DEBUG routes - Fetching results for job_id: 109
+2025-04-08 21:47:58,775 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/109 HTTP/1.1" 200 -
+2025-04-08 21:47:58,778 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:58,779 DEBUG routes - Job submitted with id: 110
+2025-04-08 21:47:58,779 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:58,783 DEBUG routes - Fetching results for job_id: 110
+2025-04-08 21:47:58,784 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/110 HTTP/1.1" 200 -
+2025-04-08 21:47:58,990 DEBUG routes - Fetching results for job_id: 110
+2025-04-08 21:47:58,990 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/110 HTTP/1.1" 200 -
+2025-04-08 21:47:58,993 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:47:58,993 DEBUG routes - Job submitted with id: 111
+2025-04-08 21:47:58,994 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:58,999 DEBUG routes - Fetching results for job_id: 111
+2025-04-08 21:47:59,000 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:58] "GET /api/get_results/111 HTTP/1.1" 200 -
+2025-04-08 21:47:59,002 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:59,003 DEBUG routes - Job submitted with id: 112
+2025-04-08 21:47:59,004 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:59,006 DEBUG routes - Fetching results for job_id: 112
+2025-04-08 21:47:59,007 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "GET /api/get_results/112 HTTP/1.1" 200 -
+2025-04-08 21:47:59,214 DEBUG routes - Fetching results for job_id: 112
+2025-04-08 21:47:59,215 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "GET /api/get_results/112 HTTP/1.1" 200 -
+2025-04-08 21:47:59,218 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:47:59,218 DEBUG routes - Job submitted with id: 113
+2025-04-08 21:47:59,219 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:59,221 DEBUG routes - Fetching results for job_id: 113
+2025-04-08 21:47:59,222 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "GET /api/get_results/113 HTTP/1.1" 200 -
+2025-04-08 21:47:59,428 DEBUG routes - Fetching results for job_id: 113
+2025-04-08 21:47:59,429 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "GET /api/get_results/113 HTTP/1.1" 200 -
+2025-04-08 21:47:59,432 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:47:59,433 DEBUG routes - Job submitted with id: 114
+2025-04-08 21:47:59,433 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:47:59,438 DEBUG routes - Fetching results for job_id: 114
+2025-04-08 21:47:59,439 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:47:59] "GET /api/get_results/114 HTTP/1.1" 200 -
+2025-04-08 21:49:59,730 INFO werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-08 21:49:59,731 INFO werkzeug - [33mPress CTRL+C to quit[0m
+2025-04-08 21:50:02,563 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:50:02,563 DEBUG routes - Job submitted with id: 1
+2025-04-08 21:50:02,566 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:02,570 DEBUG routes - Fetching results for job_id: 1
+2025-04-08 21:50:02,570 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "GET /api/get_results/1 HTTP/1.1" 200 -
+2025-04-08 21:50:02,777 DEBUG routes - Fetching results for job_id: 1
+2025-04-08 21:50:02,777 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "GET /api/get_results/1 HTTP/1.1" 200 -
+2025-04-08 21:50:02,780 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:50:02,780 DEBUG routes - Job submitted with id: 2
+2025-04-08 21:50:02,782 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:02,785 DEBUG routes - Fetching results for job_id: 2
+2025-04-08 21:50:02,786 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "GET /api/get_results/2 HTTP/1.1" 200 -
+2025-04-08 21:50:02,992 DEBUG routes - Fetching results for job_id: 2
+2025-04-08 21:50:02,992 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "GET /api/get_results/2 HTTP/1.1" 200 -
+2025-04-08 21:50:02,995 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:50:02,996 DEBUG routes - Job submitted with id: 3
+2025-04-08 21:50:02,997 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:02] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:02,999 DEBUG routes - Fetching results for job_id: 3
+2025-04-08 21:50:03,001 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/3 HTTP/1.1" 200 -
+2025-04-08 21:50:03,205 DEBUG routes - Fetching results for job_id: 3
+2025-04-08 21:50:03,206 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/3 HTTP/1.1" 200 -
+2025-04-08 21:50:03,209 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:50:03,209 DEBUG routes - Job submitted with id: 4
+2025-04-08 21:50:03,210 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:03,212 DEBUG routes - Fetching results for job_id: 4
+2025-04-08 21:50:03,213 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/4 HTTP/1.1" 200 -
+2025-04-08 21:50:03,419 DEBUG routes - Fetching results for job_id: 4
+2025-04-08 21:50:03,420 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/4 HTTP/1.1" 200 -
+2025-04-08 21:50:03,423 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:03,423 DEBUG routes - Job submitted with id: 5
+2025-04-08 21:50:03,423 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:03,429 DEBUG routes - Fetching results for job_id: 5
+2025-04-08 21:50:03,429 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/5 HTTP/1.1" 200 -
+2025-04-08 21:50:03,635 DEBUG routes - Fetching results for job_id: 5
+2025-04-08 21:50:03,635 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/5 HTTP/1.1" 200 -
+2025-04-08 21:50:03,638 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:50:03,639 DEBUG routes - Job submitted with id: 6
+2025-04-08 21:50:03,639 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:03,642 DEBUG routes - Fetching results for job_id: 6
+2025-04-08 21:50:03,643 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/6 HTTP/1.1" 200 -
+2025-04-08 21:50:03,849 DEBUG routes - Fetching results for job_id: 6
+2025-04-08 21:50:03,850 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/6 HTTP/1.1" 200 -
+2025-04-08 21:50:03,853 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:03,853 DEBUG routes - Job submitted with id: 7
+2025-04-08 21:50:03,853 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:03,857 DEBUG routes - Fetching results for job_id: 7
+2025-04-08 21:50:03,858 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:03] "GET /api/get_results/7 HTTP/1.1" 200 -
+2025-04-08 21:50:04,064 DEBUG routes - Fetching results for job_id: 7
+2025-04-08 21:50:04,064 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "GET /api/get_results/7 HTTP/1.1" 200 -
+2025-04-08 21:50:04,067 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:04,067 DEBUG routes - Job submitted with id: 8
+2025-04-08 21:50:04,068 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:04,070 DEBUG routes - Fetching results for job_id: 8
+2025-04-08 21:50:04,071 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "GET /api/get_results/8 HTTP/1.1" 200 -
+2025-04-08 21:50:04,274 DEBUG routes - Fetching results for job_id: 8
+2025-04-08 21:50:04,274 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "GET /api/get_results/8 HTTP/1.1" 200 -
+2025-04-08 21:50:04,277 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:04,280 DEBUG routes - Job submitted with id: 9
+2025-04-08 21:50:04,280 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "POST /api/best5 HTTP/1.1" 200 -
+2025-04-08 21:50:04,282 DEBUG routes - Fetching results for job_id: 9
+2025-04-08 21:50:04,283 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "GET /api/get_results/9 HTTP/1.1" 200 -
+2025-04-08 21:50:04,490 DEBUG routes - Fetching results for job_id: 9
+2025-04-08 21:50:04,490 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:04] "GET /api/get_results/9 HTTP/1.1" 200 -
+2025-04-08 21:50:09,398 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:50:09,399 DEBUG routes - Job submitted with id: 10
+2025-04-08 21:50:09,399 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:09,403 DEBUG routes - Fetching results for job_id: 10
+2025-04-08 21:50:09,403 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "GET /api/get_results/10 HTTP/1.1" 200 -
+2025-04-08 21:50:09,609 DEBUG routes - Fetching results for job_id: 10
+2025-04-08 21:50:09,610 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "GET /api/get_results/10 HTTP/1.1" 200 -
+2025-04-08 21:50:09,614 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:50:09,614 DEBUG routes - Job submitted with id: 11
+2025-04-08 21:50:09,614 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:09,620 DEBUG routes - Fetching results for job_id: 11
+2025-04-08 21:50:09,622 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "GET /api/get_results/11 HTTP/1.1" 200 -
+2025-04-08 21:50:09,827 DEBUG routes - Fetching results for job_id: 11
+2025-04-08 21:50:09,827 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "GET /api/get_results/11 HTTP/1.1" 200 -
+2025-04-08 21:50:09,831 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:50:09,831 DEBUG routes - Job submitted with id: 12
+2025-04-08 21:50:09,832 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:09,836 DEBUG routes - Fetching results for job_id: 12
+2025-04-08 21:50:09,838 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:09] "GET /api/get_results/12 HTTP/1.1" 200 -
+2025-04-08 21:50:10,042 DEBUG routes - Fetching results for job_id: 12
+2025-04-08 21:50:10,043 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/12 HTTP/1.1" 200 -
+2025-04-08 21:50:10,047 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:50:10,047 DEBUG routes - Job submitted with id: 13
+2025-04-08 21:50:10,048 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:10,052 DEBUG routes - Fetching results for job_id: 13
+2025-04-08 21:50:10,053 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/13 HTTP/1.1" 200 -
+2025-04-08 21:50:10,258 DEBUG routes - Fetching results for job_id: 13
+2025-04-08 21:50:10,259 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/13 HTTP/1.1" 200 -
+2025-04-08 21:50:10,265 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:10,266 DEBUG routes - Job submitted with id: 14
+2025-04-08 21:50:10,266 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:10,270 DEBUG routes - Fetching results for job_id: 14
+2025-04-08 21:50:10,271 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/14 HTTP/1.1" 200 -
+2025-04-08 21:50:10,476 DEBUG routes - Fetching results for job_id: 14
+2025-04-08 21:50:10,477 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/14 HTTP/1.1" 200 -
+2025-04-08 21:50:10,480 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:50:10,481 DEBUG routes - Job submitted with id: 15
+2025-04-08 21:50:10,481 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:10,484 DEBUG routes - Fetching results for job_id: 15
+2025-04-08 21:50:10,485 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/15 HTTP/1.1" 200 -
+2025-04-08 21:50:10,690 DEBUG routes - Fetching results for job_id: 15
+2025-04-08 21:50:10,690 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/15 HTTP/1.1" 200 -
+2025-04-08 21:50:10,693 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:10,693 DEBUG routes - Job submitted with id: 16
+2025-04-08 21:50:10,694 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:10,697 DEBUG routes - Fetching results for job_id: 16
+2025-04-08 21:50:10,697 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/16 HTTP/1.1" 200 -
+2025-04-08 21:50:10,905 DEBUG routes - Fetching results for job_id: 16
+2025-04-08 21:50:10,905 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/16 HTTP/1.1" 200 -
+2025-04-08 21:50:10,909 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:10,909 DEBUG routes - Job submitted with id: 17
+2025-04-08 21:50:10,910 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:10,913 DEBUG routes - Fetching results for job_id: 17
+2025-04-08 21:50:10,914 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:10] "GET /api/get_results/17 HTTP/1.1" 200 -
+2025-04-08 21:50:11,118 DEBUG routes - Fetching results for job_id: 17
+2025-04-08 21:50:11,119 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/17 HTTP/1.1" 200 -
+2025-04-08 21:50:11,123 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:11,123 DEBUG routes - Job submitted with id: 18
+2025-04-08 21:50:11,123 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "POST /api/diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:11,125 DEBUG routes - Fetching results for job_id: 18
+2025-04-08 21:50:11,129 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/18 HTTP/1.1" 200 -
+2025-04-08 21:50:11,334 DEBUG routes - Fetching results for job_id: 18
+2025-04-08 21:50:11,334 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/18 HTTP/1.1" 200 -
+2025-04-08 21:50:11,338 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:50:11,339 DEBUG routes - Job submitted with id: 19
+2025-04-08 21:50:11,339 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:11,342 DEBUG routes - Fetching results for job_id: 19
+2025-04-08 21:50:11,344 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/19 HTTP/1.1" 200 -
+2025-04-08 21:50:11,550 DEBUG routes - Fetching results for job_id: 19
+2025-04-08 21:50:11,551 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/19 HTTP/1.1" 200 -
+2025-04-08 21:50:11,554 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:50:11,554 DEBUG routes - Job submitted with id: 20
+2025-04-08 21:50:11,554 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:11,560 DEBUG routes - Fetching results for job_id: 20
+2025-04-08 21:50:11,561 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/20 HTTP/1.1" 200 -
+2025-04-08 21:50:11,770 DEBUG routes - Fetching results for job_id: 20
+2025-04-08 21:50:11,771 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/20 HTTP/1.1" 200 -
+2025-04-08 21:50:11,775 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:50:11,775 DEBUG routes - Job submitted with id: 21
+2025-04-08 21:50:11,775 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:11,779 DEBUG routes - Fetching results for job_id: 21
+2025-04-08 21:50:11,779 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/21 HTTP/1.1" 200 -
+2025-04-08 21:50:11,986 DEBUG routes - Fetching results for job_id: 21
+2025-04-08 21:50:11,986 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/21 HTTP/1.1" 200 -
+2025-04-08 21:50:11,989 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:50:11,989 DEBUG routes - Job submitted with id: 22
+2025-04-08 21:50:11,989 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:11,992 DEBUG routes - Fetching results for job_id: 22
+2025-04-08 21:50:11,993 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:11] "GET /api/get_results/22 HTTP/1.1" 200 -
+2025-04-08 21:50:12,201 DEBUG routes - Fetching results for job_id: 22
+2025-04-08 21:50:12,202 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/22 HTTP/1.1" 200 -
+2025-04-08 21:50:12,207 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:12,207 DEBUG routes - Job submitted with id: 23
+2025-04-08 21:50:12,208 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:12,214 DEBUG routes - Fetching results for job_id: 23
+2025-04-08 21:50:12,217 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/23 HTTP/1.1" 200 -
+2025-04-08 21:50:12,222 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:50:12,222 DEBUG routes - Job submitted with id: 24
+2025-04-08 21:50:12,223 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:12,233 DEBUG routes - Fetching results for job_id: 24
+2025-04-08 21:50:12,233 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/24 HTTP/1.1" 200 -
+2025-04-08 21:50:12,238 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:12,238 DEBUG routes - Job submitted with id: 25
+2025-04-08 21:50:12,239 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:12,243 DEBUG routes - Fetching results for job_id: 25
+2025-04-08 21:50:12,245 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/25 HTTP/1.1" 200 -
+2025-04-08 21:50:12,451 DEBUG routes - Fetching results for job_id: 25
+2025-04-08 21:50:12,452 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/25 HTTP/1.1" 200 -
+2025-04-08 21:50:12,455 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:12,455 DEBUG routes - Job submitted with id: 26
+2025-04-08 21:50:12,455 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:12,460 DEBUG routes - Fetching results for job_id: 26
+2025-04-08 21:50:12,460 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/26 HTTP/1.1" 200 -
+2025-04-08 21:50:12,666 DEBUG routes - Fetching results for job_id: 26
+2025-04-08 21:50:12,666 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/26 HTTP/1.1" 200 -
+2025-04-08 21:50:12,669 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:12,669 DEBUG routes - Job submitted with id: 27
+2025-04-08 21:50:12,669 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "POST /api/global_mean HTTP/1.1" 200 -
+2025-04-08 21:50:12,673 DEBUG routes - Fetching results for job_id: 27
+2025-04-08 21:50:12,673 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/27 HTTP/1.1" 200 -
+2025-04-08 21:50:12,879 DEBUG routes - Fetching results for job_id: 27
+2025-04-08 21:50:12,880 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/27 HTTP/1.1" 200 -
+2025-04-08 21:50:12,883 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:50:12,885 DEBUG routes - Job submitted with id: 28
+2025-04-08 21:50:12,885 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:12,888 DEBUG routes - Fetching results for job_id: 28
+2025-04-08 21:50:12,888 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:12] "GET /api/get_results/28 HTTP/1.1" 200 -
+2025-04-08 21:50:13,093 DEBUG routes - Fetching results for job_id: 28
+2025-04-08 21:50:13,094 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/28 HTTP/1.1" 200 -
+2025-04-08 21:50:13,115 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:50:13,117 DEBUG routes - Job submitted with id: 29
+2025-04-08 21:50:13,118 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:13,121 DEBUG routes - Fetching results for job_id: 29
+2025-04-08 21:50:13,123 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/29 HTTP/1.1" 200 -
+2025-04-08 21:50:13,328 DEBUG routes - Fetching results for job_id: 29
+2025-04-08 21:50:13,329 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/29 HTTP/1.1" 200 -
+2025-04-08 21:50:13,350 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:50:13,350 DEBUG routes - Job submitted with id: 30
+2025-04-08 21:50:13,351 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:13,354 DEBUG routes - Fetching results for job_id: 30
+2025-04-08 21:50:13,356 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/30 HTTP/1.1" 200 -
+2025-04-08 21:50:13,561 DEBUG routes - Fetching results for job_id: 30
+2025-04-08 21:50:13,562 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/30 HTTP/1.1" 200 -
+2025-04-08 21:50:13,583 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:50:13,584 DEBUG routes - Job submitted with id: 31
+2025-04-08 21:50:13,585 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:13,591 DEBUG routes - Fetching results for job_id: 31
+2025-04-08 21:50:13,591 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/31 HTTP/1.1" 200 -
+2025-04-08 21:50:13,797 DEBUG routes - Fetching results for job_id: 31
+2025-04-08 21:50:13,798 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/31 HTTP/1.1" 200 -
+2025-04-08 21:50:13,812 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:13,813 DEBUG routes - Job submitted with id: 32
+2025-04-08 21:50:13,814 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:13,817 DEBUG routes - Fetching results for job_id: 32
+2025-04-08 21:50:13,818 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:13] "GET /api/get_results/32 HTTP/1.1" 200 -
+2025-04-08 21:50:14,024 DEBUG routes - Fetching results for job_id: 32
+2025-04-08 21:50:14,025 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/32 HTTP/1.1" 200 -
+2025-04-08 21:50:14,040 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:50:14,040 DEBUG routes - Job submitted with id: 33
+2025-04-08 21:50:14,042 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:14,045 DEBUG routes - Fetching results for job_id: 33
+2025-04-08 21:50:14,046 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/33 HTTP/1.1" 200 -
+2025-04-08 21:50:14,252 DEBUG routes - Fetching results for job_id: 33
+2025-04-08 21:50:14,253 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/33 HTTP/1.1" 200 -
+2025-04-08 21:50:14,266 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:14,267 DEBUG routes - Job submitted with id: 34
+2025-04-08 21:50:14,268 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:14,272 DEBUG routes - Fetching results for job_id: 34
+2025-04-08 21:50:14,272 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/34 HTTP/1.1" 200 -
+2025-04-08 21:50:14,479 DEBUG routes - Fetching results for job_id: 34
+2025-04-08 21:50:14,480 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/34 HTTP/1.1" 200 -
+2025-04-08 21:50:14,496 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:14,498 DEBUG routes - Job submitted with id: 35
+2025-04-08 21:50:14,499 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:14,502 DEBUG routes - Fetching results for job_id: 35
+2025-04-08 21:50:14,503 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/35 HTTP/1.1" 200 -
+2025-04-08 21:50:14,710 DEBUG routes - Fetching results for job_id: 35
+2025-04-08 21:50:14,711 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/35 HTTP/1.1" 200 -
+2025-04-08 21:50:14,727 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:14,729 DEBUG routes - Job submitted with id: 36
+2025-04-08 21:50:14,729 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "POST /api/mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:14,733 DEBUG routes - Fetching results for job_id: 36
+2025-04-08 21:50:14,734 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/36 HTTP/1.1" 200 -
+2025-04-08 21:50:14,939 DEBUG routes - Fetching results for job_id: 36
+2025-04-08 21:50:14,940 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/36 HTTP/1.1" 200 -
+2025-04-08 21:50:14,957 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Delaware'}
+2025-04-08 21:50:14,957 DEBUG routes - Job submitted with id: 37
+2025-04-08 21:50:14,958 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:14,966 DEBUG routes - Fetching results for job_id: 37
+2025-04-08 21:50:14,967 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:14] "GET /api/get_results/37 HTTP/1.1" 200 -
+2025-04-08 21:50:15,172 DEBUG routes - Fetching results for job_id: 37
+2025-04-08 21:50:15,173 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/37 HTTP/1.1" 200 -
+2025-04-08 21:50:15,176 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Massachusetts'}
+2025-04-08 21:50:15,176 DEBUG routes - Job submitted with id: 38
+2025-04-08 21:50:15,177 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:15,182 DEBUG routes - Fetching results for job_id: 38
+2025-04-08 21:50:15,182 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/38 HTTP/1.1" 200 -
+2025-04-08 21:50:15,391 DEBUG routes - Fetching results for job_id: 38
+2025-04-08 21:50:15,391 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/38 HTTP/1.1" 200 -
+2025-04-08 21:50:15,394 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Minnesota'}
+2025-04-08 21:50:15,394 DEBUG routes - Job submitted with id: 39
+2025-04-08 21:50:15,395 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:15,398 DEBUG routes - Fetching results for job_id: 39
+2025-04-08 21:50:15,399 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/39 HTTP/1.1" 200 -
+2025-04-08 21:50:15,604 DEBUG routes - Fetching results for job_id: 39
+2025-04-08 21:50:15,605 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/39 HTTP/1.1" 200 -
+2025-04-08 21:50:15,608 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Florida'}
+2025-04-08 21:50:15,608 DEBUG routes - Job submitted with id: 40
+2025-04-08 21:50:15,608 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:15,611 DEBUG routes - Fetching results for job_id: 40
+2025-04-08 21:50:15,612 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/40 HTTP/1.1" 200 -
+2025-04-08 21:50:15,818 DEBUG routes - Fetching results for job_id: 40
+2025-04-08 21:50:15,818 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/40 HTTP/1.1" 200 -
+2025-04-08 21:50:15,822 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Minnesota'}
+2025-04-08 21:50:15,823 DEBUG routes - Job submitted with id: 41
+2025-04-08 21:50:15,823 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:15,830 DEBUG routes - Fetching results for job_id: 41
+2025-04-08 21:50:15,831 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:15] "GET /api/get_results/41 HTTP/1.1" 200 -
+2025-04-08 21:50:16,042 DEBUG routes - Fetching results for job_id: 41
+2025-04-08 21:50:16,042 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/41 HTTP/1.1" 200 -
+2025-04-08 21:50:16,045 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Minnesota'}
+2025-04-08 21:50:16,046 DEBUG routes - Job submitted with id: 42
+2025-04-08 21:50:16,046 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:16,051 DEBUG routes - Fetching results for job_id: 42
+2025-04-08 21:50:16,052 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/42 HTTP/1.1" 200 -
+2025-04-08 21:50:16,261 DEBUG routes - Fetching results for job_id: 42
+2025-04-08 21:50:16,261 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/42 HTTP/1.1" 200 -
+2025-04-08 21:50:16,264 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Florida'}
+2025-04-08 21:50:16,264 DEBUG routes - Job submitted with id: 43
+2025-04-08 21:50:16,265 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:16,268 DEBUG routes - Fetching results for job_id: 43
+2025-04-08 21:50:16,268 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/43 HTTP/1.1" 200 -
+2025-04-08 21:50:16,476 DEBUG routes - Fetching results for job_id: 43
+2025-04-08 21:50:16,476 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/43 HTTP/1.1" 200 -
+2025-04-08 21:50:16,480 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Minnesota'}
+2025-04-08 21:50:16,480 DEBUG routes - Job submitted with id: 44
+2025-04-08 21:50:16,480 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:16,484 DEBUG routes - Fetching results for job_id: 44
+2025-04-08 21:50:16,485 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/44 HTTP/1.1" 200 -
+2025-04-08 21:50:16,692 DEBUG routes - Fetching results for job_id: 44
+2025-04-08 21:50:16,692 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/44 HTTP/1.1" 200 -
+2025-04-08 21:50:16,696 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Florida'}
+2025-04-08 21:50:16,696 DEBUG routes - Job submitted with id: 45
+2025-04-08 21:50:16,696 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:16,699 DEBUG routes - Fetching results for job_id: 45
+2025-04-08 21:50:16,700 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/45 HTTP/1.1" 200 -
+2025-04-08 21:50:16,907 DEBUG routes - Fetching results for job_id: 45
+2025-04-08 21:50:16,907 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/45 HTTP/1.1" 200 -
+2025-04-08 21:50:16,911 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Delaware'}
+2025-04-08 21:50:16,911 DEBUG routes - Job submitted with id: 46
+2025-04-08 21:50:16,911 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:16,916 DEBUG routes - Fetching results for job_id: 46
+2025-04-08 21:50:16,916 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:16] "GET /api/get_results/46 HTTP/1.1" 200 -
+2025-04-08 21:50:17,125 DEBUG routes - Fetching results for job_id: 46
+2025-04-08 21:50:17,125 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/46 HTTP/1.1" 200 -
+2025-04-08 21:50:17,128 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Delaware'}
+2025-04-08 21:50:17,128 DEBUG routes - Job submitted with id: 47
+2025-04-08 21:50:17,129 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:17,133 DEBUG routes - Fetching results for job_id: 47
+2025-04-08 21:50:17,140 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/47 HTTP/1.1" 200 -
+2025-04-08 21:50:17,143 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Delaware'}
+2025-04-08 21:50:17,143 DEBUG routes - Job submitted with id: 48
+2025-04-08 21:50:17,143 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:17,146 DEBUG routes - Fetching results for job_id: 48
+2025-04-08 21:50:17,147 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/48 HTTP/1.1" 200 -
+2025-04-08 21:50:17,353 DEBUG routes - Fetching results for job_id: 48
+2025-04-08 21:50:17,353 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/48 HTTP/1.1" 200 -
+2025-04-08 21:50:17,356 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Delaware'}
+2025-04-08 21:50:17,356 DEBUG routes - Job submitted with id: 49
+2025-04-08 21:50:17,356 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:17,359 DEBUG routes - Fetching results for job_id: 49
+2025-04-08 21:50:17,360 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/49 HTTP/1.1" 200 -
+2025-04-08 21:50:17,566 DEBUG routes - Fetching results for job_id: 49
+2025-04-08 21:50:17,566 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/49 HTTP/1.1" 200 -
+2025-04-08 21:50:17,569 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Massachusetts'}
+2025-04-08 21:50:17,569 DEBUG routes - Job submitted with id: 50
+2025-04-08 21:50:17,569 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:17,573 DEBUG routes - Fetching results for job_id: 50
+2025-04-08 21:50:17,573 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/50 HTTP/1.1" 200 -
+2025-04-08 21:50:17,779 DEBUG routes - Fetching results for job_id: 50
+2025-04-08 21:50:17,779 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/50 HTTP/1.1" 200 -
+2025-04-08 21:50:17,783 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Massachusetts'}
+2025-04-08 21:50:17,783 DEBUG routes - Job submitted with id: 51
+2025-04-08 21:50:17,784 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:17,791 DEBUG routes - Fetching results for job_id: 51
+2025-04-08 21:50:17,792 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:17] "GET /api/get_results/51 HTTP/1.1" 200 -
+2025-04-08 21:50:18,001 DEBUG routes - Fetching results for job_id: 51
+2025-04-08 21:50:18,002 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/51 HTTP/1.1" 200 -
+2025-04-08 21:50:18,005 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Massachusetts'}
+2025-04-08 21:50:18,005 DEBUG routes - Job submitted with id: 52
+2025-04-08 21:50:18,005 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:18,008 DEBUG routes - Fetching results for job_id: 52
+2025-04-08 21:50:18,009 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/52 HTTP/1.1" 200 -
+2025-04-08 21:50:18,216 DEBUG routes - Fetching results for job_id: 52
+2025-04-08 21:50:18,216 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/52 HTTP/1.1" 200 -
+2025-04-08 21:50:18,220 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Florida'}
+2025-04-08 21:50:18,220 DEBUG routes - Job submitted with id: 53
+2025-04-08 21:50:18,220 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:18,224 DEBUG routes - Fetching results for job_id: 53
+2025-04-08 21:50:18,224 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/53 HTTP/1.1" 200 -
+2025-04-08 21:50:18,431 DEBUG routes - Fetching results for job_id: 53
+2025-04-08 21:50:18,432 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/53 HTTP/1.1" 200 -
+2025-04-08 21:50:18,435 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Florida'}
+2025-04-08 21:50:18,435 DEBUG routes - Job submitted with id: 54
+2025-04-08 21:50:18,436 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:18,439 DEBUG routes - Fetching results for job_id: 54
+2025-04-08 21:50:18,440 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/54 HTTP/1.1" 200 -
+2025-04-08 21:50:18,647 DEBUG routes - Fetching results for job_id: 54
+2025-04-08 21:50:18,647 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/54 HTTP/1.1" 200 -
+2025-04-08 21:50:18,651 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Minnesota'}
+2025-04-08 21:50:18,651 DEBUG routes - Job submitted with id: 55
+2025-04-08 21:50:18,651 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:18,655 DEBUG routes - Fetching results for job_id: 55
+2025-04-08 21:50:18,658 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/55 HTTP/1.1" 200 -
+2025-04-08 21:50:18,863 DEBUG routes - Fetching results for job_id: 55
+2025-04-08 21:50:18,863 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/55 HTTP/1.1" 200 -
+2025-04-08 21:50:18,866 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Massachusetts'}
+2025-04-08 21:50:18,866 DEBUG routes - Job submitted with id: 56
+2025-04-08 21:50:18,867 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "POST /api/state_diff_from_mean HTTP/1.1" 200 -
+2025-04-08 21:50:18,873 DEBUG routes - Fetching results for job_id: 56
+2025-04-08 21:50:18,873 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:18] "GET /api/get_results/56 HTTP/1.1" 200 -
+2025-04-08 21:50:19,078 DEBUG routes - Fetching results for job_id: 56
+2025-04-08 21:50:19,078 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/56 HTTP/1.1" 200 -
+2025-04-08 21:50:19,082 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Wyoming'}
+2025-04-08 21:50:19,082 DEBUG routes - Job submitted with id: 57
+2025-04-08 21:50:19,083 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,087 DEBUG routes - Fetching results for job_id: 57
+2025-04-08 21:50:19,088 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/57 HTTP/1.1" 200 -
+2025-04-08 21:50:19,090 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Connecticut'}
+2025-04-08 21:50:19,091 DEBUG routes - Job submitted with id: 58
+2025-04-08 21:50:19,092 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,096 DEBUG routes - Fetching results for job_id: 58
+2025-04-08 21:50:19,096 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/58 HTTP/1.1" 200 -
+2025-04-08 21:50:19,099 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Colorado'}
+2025-04-08 21:50:19,100 DEBUG routes - Job submitted with id: 59
+2025-04-08 21:50:19,101 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,104 DEBUG routes - Fetching results for job_id: 59
+2025-04-08 21:50:19,106 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/59 HTTP/1.1" 200 -
+2025-04-08 21:50:19,109 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Oregon'}
+2025-04-08 21:50:19,110 DEBUG routes - Job submitted with id: 60
+2025-04-08 21:50:19,110 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,115 DEBUG routes - Fetching results for job_id: 60
+2025-04-08 21:50:19,116 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/60 HTTP/1.1" 200 -
+2025-04-08 21:50:19,118 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Colorado'}
+2025-04-08 21:50:19,119 DEBUG routes - Job submitted with id: 61
+2025-04-08 21:50:19,119 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,124 DEBUG routes - Fetching results for job_id: 61
+2025-04-08 21:50:19,124 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/61 HTTP/1.1" 200 -
+2025-04-08 21:50:19,126 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Colorado'}
+2025-04-08 21:50:19,128 DEBUG routes - Job submitted with id: 62
+2025-04-08 21:50:19,128 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,133 DEBUG routes - Fetching results for job_id: 62
+2025-04-08 21:50:19,133 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/62 HTTP/1.1" 200 -
+2025-04-08 21:50:19,135 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Oregon'}
+2025-04-08 21:50:19,136 DEBUG routes - Job submitted with id: 63
+2025-04-08 21:50:19,137 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,141 DEBUG routes - Fetching results for job_id: 63
+2025-04-08 21:50:19,142 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/63 HTTP/1.1" 200 -
+2025-04-08 21:50:19,144 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Colorado'}
+2025-04-08 21:50:19,145 DEBUG routes - Job submitted with id: 64
+2025-04-08 21:50:19,146 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,150 DEBUG routes - Fetching results for job_id: 64
+2025-04-08 21:50:19,151 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/64 HTTP/1.1" 200 -
+2025-04-08 21:50:19,153 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Oregon'}
+2025-04-08 21:50:19,154 DEBUG routes - Job submitted with id: 65
+2025-04-08 21:50:19,154 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,159 DEBUG routes - Fetching results for job_id: 65
+2025-04-08 21:50:19,159 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/65 HTTP/1.1" 200 -
+2025-04-08 21:50:19,162 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Wyoming'}
+2025-04-08 21:50:19,162 DEBUG routes - Job submitted with id: 66
+2025-04-08 21:50:19,163 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,167 DEBUG routes - Fetching results for job_id: 66
+2025-04-08 21:50:19,168 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/66 HTTP/1.1" 200 -
+2025-04-08 21:50:19,170 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Wyoming'}
+2025-04-08 21:50:19,171 DEBUG routes - Job submitted with id: 67
+2025-04-08 21:50:19,172 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,177 DEBUG routes - Fetching results for job_id: 67
+2025-04-08 21:50:19,178 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/67 HTTP/1.1" 200 -
+2025-04-08 21:50:19,180 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Wyoming'}
+2025-04-08 21:50:19,180 DEBUG routes - Job submitted with id: 68
+2025-04-08 21:50:19,181 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,183 DEBUG routes - Fetching results for job_id: 68
+2025-04-08 21:50:19,187 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/68 HTTP/1.1" 200 -
+2025-04-08 21:50:19,189 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Wyoming'}
+2025-04-08 21:50:19,191 DEBUG routes - Job submitted with id: 69
+2025-04-08 21:50:19,191 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,193 DEBUG routes - Fetching results for job_id: 69
+2025-04-08 21:50:19,193 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/69 HTTP/1.1" 200 -
+2025-04-08 21:50:19,402 DEBUG routes - Fetching results for job_id: 69
+2025-04-08 21:50:19,402 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/69 HTTP/1.1" 200 -
+2025-04-08 21:50:19,405 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Connecticut'}
+2025-04-08 21:50:19,406 DEBUG routes - Job submitted with id: 70
+2025-04-08 21:50:19,407 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,411 DEBUG routes - Fetching results for job_id: 70
+2025-04-08 21:50:19,411 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/70 HTTP/1.1" 200 -
+2025-04-08 21:50:19,414 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Connecticut'}
+2025-04-08 21:50:19,415 DEBUG routes - Job submitted with id: 71
+2025-04-08 21:50:19,415 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,419 DEBUG routes - Fetching results for job_id: 71
+2025-04-08 21:50:19,420 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/71 HTTP/1.1" 200 -
+2025-04-08 21:50:19,422 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Connecticut'}
+2025-04-08 21:50:19,423 DEBUG routes - Job submitted with id: 72
+2025-04-08 21:50:19,424 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,428 DEBUG routes - Fetching results for job_id: 72
+2025-04-08 21:50:19,428 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/72 HTTP/1.1" 200 -
+2025-04-08 21:50:19,431 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Oregon'}
+2025-04-08 21:50:19,432 DEBUG routes - Job submitted with id: 73
+2025-04-08 21:50:19,433 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,437 DEBUG routes - Fetching results for job_id: 73
+2025-04-08 21:50:19,438 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/73 HTTP/1.1" 200 -
+2025-04-08 21:50:19,441 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Oregon'}
+2025-04-08 21:50:19,442 DEBUG routes - Job submitted with id: 74
+2025-04-08 21:50:19,443 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,447 DEBUG routes - Fetching results for job_id: 74
+2025-04-08 21:50:19,447 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/74 HTTP/1.1" 200 -
+2025-04-08 21:50:19,450 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Colorado'}
+2025-04-08 21:50:19,451 DEBUG routes - Job submitted with id: 75
+2025-04-08 21:50:19,451 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,457 DEBUG routes - Fetching results for job_id: 75
+2025-04-08 21:50:19,458 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/75 HTTP/1.1" 200 -
+2025-04-08 21:50:19,461 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Connecticut'}
+2025-04-08 21:50:19,462 DEBUG routes - Job submitted with id: 76
+2025-04-08 21:50:19,463 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean HTTP/1.1" 200 -
+2025-04-08 21:50:19,469 DEBUG routes - Fetching results for job_id: 76
+2025-04-08 21:50:19,469 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/76 HTTP/1.1" 200 -
+2025-04-08 21:50:19,472 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Maryland'}
+2025-04-08 21:50:19,473 DEBUG routes - Job submitted with id: 77
+2025-04-08 21:50:19,473 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,479 DEBUG routes - Fetching results for job_id: 77
+2025-04-08 21:50:19,479 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/77 HTTP/1.1" 200 -
+2025-04-08 21:50:19,484 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Michigan'}
+2025-04-08 21:50:19,485 DEBUG routes - Job submitted with id: 78
+2025-04-08 21:50:19,486 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,491 DEBUG routes - Fetching results for job_id: 78
+2025-04-08 21:50:19,493 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/78 HTTP/1.1" 200 -
+2025-04-08 21:50:19,497 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'}
+2025-04-08 21:50:19,498 DEBUG routes - Job submitted with id: 79
+2025-04-08 21:50:19,499 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,504 DEBUG routes - Fetching results for job_id: 79
+2025-04-08 21:50:19,505 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/79 HTTP/1.1" 200 -
+2025-04-08 21:50:19,507 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'}
+2025-04-08 21:50:19,509 DEBUG routes - Job submitted with id: 80
+2025-04-08 21:50:19,509 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,513 DEBUG routes - Fetching results for job_id: 80
+2025-04-08 21:50:19,515 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/80 HTTP/1.1" 200 -
+2025-04-08 21:50:19,518 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'West Virginia'}
+2025-04-08 21:50:19,518 DEBUG routes - Job submitted with id: 81
+2025-04-08 21:50:19,519 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,524 DEBUG routes - Fetching results for job_id: 81
+2025-04-08 21:50:19,524 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/81 HTTP/1.1" 200 -
+2025-04-08 21:50:19,528 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'}
+2025-04-08 21:50:19,528 DEBUG routes - Job submitted with id: 82
+2025-04-08 21:50:19,529 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,533 DEBUG routes - Fetching results for job_id: 82
+2025-04-08 21:50:19,534 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/82 HTTP/1.1" 200 -
+2025-04-08 21:50:19,537 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'}
+2025-04-08 21:50:19,538 DEBUG routes - Job submitted with id: 83
+2025-04-08 21:50:19,539 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,543 DEBUG routes - Fetching results for job_id: 83
+2025-04-08 21:50:19,544 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/83 HTTP/1.1" 200 -
+2025-04-08 21:50:19,546 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'}
+2025-04-08 21:50:19,547 DEBUG routes - Job submitted with id: 84
+2025-04-08 21:50:19,548 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,552 DEBUG routes - Fetching results for job_id: 84
+2025-04-08 21:50:19,552 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/84 HTTP/1.1" 200 -
+2025-04-08 21:50:19,556 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Indiana'}
+2025-04-08 21:50:19,557 DEBUG routes - Job submitted with id: 85
+2025-04-08 21:50:19,558 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,563 DEBUG routes - Fetching results for job_id: 85
+2025-04-08 21:50:19,563 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/85 HTTP/1.1" 200 -
+2025-04-08 21:50:19,566 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'}
+2025-04-08 21:50:19,566 DEBUG routes - Job submitted with id: 86
+2025-04-08 21:50:19,567 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,572 DEBUG routes - Fetching results for job_id: 86
+2025-04-08 21:50:19,573 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/86 HTTP/1.1" 200 -
+2025-04-08 21:50:19,576 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'}
+2025-04-08 21:50:19,577 DEBUG routes - Job submitted with id: 87
+2025-04-08 21:50:19,578 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,583 DEBUG routes - Fetching results for job_id: 87
+2025-04-08 21:50:19,584 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/87 HTTP/1.1" 200 -
+2025-04-08 21:50:19,587 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Maryland'}
+2025-04-08 21:50:19,588 DEBUG routes - Job submitted with id: 88
+2025-04-08 21:50:19,588 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,593 DEBUG routes - Fetching results for job_id: 88
+2025-04-08 21:50:19,594 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/88 HTTP/1.1" 200 -
+2025-04-08 21:50:19,800 DEBUG routes - Fetching results for job_id: 88
+2025-04-08 21:50:19,801 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/88 HTTP/1.1" 200 -
+2025-04-08 21:50:19,804 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'}
+2025-04-08 21:50:19,805 DEBUG routes - Job submitted with id: 89
+2025-04-08 21:50:19,806 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,810 DEBUG routes - Fetching results for job_id: 89
+2025-04-08 21:50:19,811 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/89 HTTP/1.1" 200 -
+2025-04-08 21:50:19,814 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'}
+2025-04-08 21:50:19,815 DEBUG routes - Job submitted with id: 90
+2025-04-08 21:50:19,815 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,817 DEBUG routes - Fetching results for job_id: 90
+2025-04-08 21:50:19,820 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/90 HTTP/1.1" 200 -
+2025-04-08 21:50:19,824 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'}
+2025-04-08 21:50:19,825 DEBUG routes - Job submitted with id: 91
+2025-04-08 21:50:19,825 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,829 DEBUG routes - Fetching results for job_id: 91
+2025-04-08 21:50:19,831 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/91 HTTP/1.1" 200 -
+2025-04-08 21:50:19,834 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'}
+2025-04-08 21:50:19,835 DEBUG routes - Job submitted with id: 92
+2025-04-08 21:50:19,836 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,841 DEBUG routes - Fetching results for job_id: 92
+2025-04-08 21:50:19,841 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/92 HTTP/1.1" 200 -
+2025-04-08 21:50:19,844 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Indiana'}
+2025-04-08 21:50:19,846 DEBUG routes - Job submitted with id: 93
+2025-04-08 21:50:19,846 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:19,850 DEBUG routes - Fetching results for job_id: 93
+2025-04-08 21:50:19,850 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:19] "GET /api/get_results/93 HTTP/1.1" 200 -
+2025-04-08 21:50:20,057 DEBUG routes - Fetching results for job_id: 93
+2025-04-08 21:50:20,057 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/93 HTTP/1.1" 200 -
+2025-04-08 21:50:20,061 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'}
+2025-04-08 21:50:20,061 DEBUG routes - Job submitted with id: 94
+2025-04-08 21:50:20,061 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:20,064 DEBUG routes - Fetching results for job_id: 94
+2025-04-08 21:50:20,067 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/94 HTTP/1.1" 200 -
+2025-04-08 21:50:20,070 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'West Virginia'}
+2025-04-08 21:50:20,072 DEBUG routes - Job submitted with id: 95
+2025-04-08 21:50:20,072 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:20,077 DEBUG routes - Fetching results for job_id: 95
+2025-04-08 21:50:20,077 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/95 HTTP/1.1" 200 -
+2025-04-08 21:50:20,080 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Michigan'}
+2025-04-08 21:50:20,081 DEBUG routes - Job submitted with id: 96
+2025-04-08 21:50:20,082 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/state_mean_by_category HTTP/1.1" 200 -
+2025-04-08 21:50:20,084 DEBUG routes - Fetching results for job_id: 96
+2025-04-08 21:50:20,086 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/96 HTTP/1.1" 200 -
+2025-04-08 21:50:20,292 DEBUG routes - Fetching results for job_id: 96
+2025-04-08 21:50:20,292 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/96 HTTP/1.1" 200 -
+2025-04-08 21:50:20,297 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:50:20,297 DEBUG routes - Job submitted with id: 97
+2025-04-08 21:50:20,298 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:20,300 DEBUG routes - Fetching results for job_id: 97
+2025-04-08 21:50:20,301 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/97 HTTP/1.1" 200 -
+2025-04-08 21:50:20,508 DEBUG routes - Fetching results for job_id: 97
+2025-04-08 21:50:20,508 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/97 HTTP/1.1" 200 -
+2025-04-08 21:50:20,512 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:50:20,514 DEBUG routes - Job submitted with id: 98
+2025-04-08 21:50:20,514 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:20,516 DEBUG routes - Fetching results for job_id: 98
+2025-04-08 21:50:20,517 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/98 HTTP/1.1" 200 -
+2025-04-08 21:50:20,724 DEBUG routes - Fetching results for job_id: 98
+2025-04-08 21:50:20,724 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/98 HTTP/1.1" 200 -
+2025-04-08 21:50:20,727 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:50:20,728 DEBUG routes - Job submitted with id: 99
+2025-04-08 21:50:20,729 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:20,731 DEBUG routes - Fetching results for job_id: 99
+2025-04-08 21:50:20,731 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/99 HTTP/1.1" 200 -
+2025-04-08 21:50:20,940 DEBUG routes - Fetching results for job_id: 99
+2025-04-08 21:50:20,940 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/99 HTTP/1.1" 200 -
+2025-04-08 21:50:20,944 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:50:20,945 DEBUG routes - Job submitted with id: 100
+2025-04-08 21:50:20,946 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:20,949 DEBUG routes - Fetching results for job_id: 100
+2025-04-08 21:50:20,950 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:20] "GET /api/get_results/100 HTTP/1.1" 200 -
+2025-04-08 21:50:21,155 DEBUG routes - Fetching results for job_id: 100
+2025-04-08 21:50:21,156 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/100 HTTP/1.1" 200 -
+2025-04-08 21:50:21,161 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:21,161 DEBUG routes - Job submitted with id: 101
+2025-04-08 21:50:21,161 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:21,165 DEBUG routes - Fetching results for job_id: 101
+2025-04-08 21:50:21,166 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/101 HTTP/1.1" 200 -
+2025-04-08 21:50:21,373 DEBUG routes - Fetching results for job_id: 101
+2025-04-08 21:50:21,373 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/101 HTTP/1.1" 200 -
+2025-04-08 21:50:21,377 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:50:21,378 DEBUG routes - Job submitted with id: 102
+2025-04-08 21:50:21,378 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:21,381 DEBUG routes - Fetching results for job_id: 102
+2025-04-08 21:50:21,382 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/102 HTTP/1.1" 200 -
+2025-04-08 21:50:21,590 DEBUG routes - Fetching results for job_id: 102
+2025-04-08 21:50:21,590 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/102 HTTP/1.1" 200 -
+2025-04-08 21:50:21,594 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:21,595 DEBUG routes - Job submitted with id: 103
+2025-04-08 21:50:21,596 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:21,600 DEBUG routes - Fetching results for job_id: 103
+2025-04-08 21:50:21,601 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/103 HTTP/1.1" 200 -
+2025-04-08 21:50:21,807 DEBUG routes - Fetching results for job_id: 103
+2025-04-08 21:50:21,808 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/103 HTTP/1.1" 200 -
+2025-04-08 21:50:21,812 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:21,814 DEBUG routes - Job submitted with id: 104
+2025-04-08 21:50:21,814 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:21,816 DEBUG routes - Fetching results for job_id: 104
+2025-04-08 21:50:21,817 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:21] "GET /api/get_results/104 HTTP/1.1" 200 -
+2025-04-08 21:50:22,024 DEBUG routes - Fetching results for job_id: 104
+2025-04-08 21:50:22,024 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/104 HTTP/1.1" 200 -
+2025-04-08 21:50:22,028 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:22,029 DEBUG routes - Job submitted with id: 105
+2025-04-08 21:50:22,030 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/states_mean HTTP/1.1" 200 -
+2025-04-08 21:50:22,034 DEBUG routes - Fetching results for job_id: 105
+2025-04-08 21:50:22,035 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/105 HTTP/1.1" 200 -
+2025-04-08 21:50:22,038 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'}
+2025-04-08 21:50:22,038 DEBUG routes - Job submitted with id: 106
+2025-04-08 21:50:22,040 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:22,043 DEBUG routes - Fetching results for job_id: 106
+2025-04-08 21:50:22,044 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/106 HTTP/1.1" 200 -
+2025-04-08 21:50:22,249 DEBUG routes - Fetching results for job_id: 106
+2025-04-08 21:50:22,250 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/106 HTTP/1.1" 200 -
+2025-04-08 21:50:22,255 DEBUG routes - Received job request: {'question': 'Percent of adults aged 18 years and older who have obesity'}
+2025-04-08 21:50:22,256 DEBUG routes - Job submitted with id: 107
+2025-04-08 21:50:22,257 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:22,261 DEBUG routes - Fetching results for job_id: 107
+2025-04-08 21:50:22,262 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/107 HTTP/1.1" 200 -
+2025-04-08 21:50:22,468 DEBUG routes - Fetching results for job_id: 107
+2025-04-08 21:50:22,469 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/107 HTTP/1.1" 200 -
+2025-04-08 21:50:22,473 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in no leisure-time physical activity'}
+2025-04-08 21:50:22,473 DEBUG routes - Job submitted with id: 108
+2025-04-08 21:50:22,475 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:22,478 DEBUG routes - Fetching results for job_id: 108
+2025-04-08 21:50:22,480 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/108 HTTP/1.1" 200 -
+2025-04-08 21:50:22,686 DEBUG routes - Fetching results for job_id: 108
+2025-04-08 21:50:22,687 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/108 HTTP/1.1" 200 -
+2025-04-08 21:50:22,690 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming fruit less than one time daily'}
+2025-04-08 21:50:22,691 DEBUG routes - Job submitted with id: 109
+2025-04-08 21:50:22,691 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:22,695 DEBUG routes - Fetching results for job_id: 109
+2025-04-08 21:50:22,696 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/109 HTTP/1.1" 200 -
+2025-04-08 21:50:22,699 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:22,700 DEBUG routes - Job submitted with id: 110
+2025-04-08 21:50:22,701 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:22,705 DEBUG routes - Fetching results for job_id: 110
+2025-04-08 21:50:22,706 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/110 HTTP/1.1" 200 -
+2025-04-08 21:50:22,911 DEBUG routes - Fetching results for job_id: 110
+2025-04-08 21:50:22,912 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/110 HTTP/1.1" 200 -
+2025-04-08 21:50:22,914 DEBUG routes - Received job request: {'question': 'Percent of adults who report consuming vegetables less than one time daily'}
+2025-04-08 21:50:22,915 DEBUG routes - Job submitted with id: 111
+2025-04-08 21:50:22,916 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:22,919 DEBUG routes - Fetching results for job_id: 111
+2025-04-08 21:50:22,919 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:22] "GET /api/get_results/111 HTTP/1.1" 200 -
+2025-04-08 21:50:23,125 DEBUG routes - Fetching results for job_id: 111
+2025-04-08 21:50:23,125 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "GET /api/get_results/111 HTTP/1.1" 200 -
+2025-04-08 21:50:23,129 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:23,130 DEBUG routes - Job submitted with id: 112
+2025-04-08 21:50:23,130 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:23,133 DEBUG routes - Fetching results for job_id: 112
+2025-04-08 21:50:23,133 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "GET /api/get_results/112 HTTP/1.1" 200 -
+2025-04-08 21:50:23,340 DEBUG routes - Fetching results for job_id: 112
+2025-04-08 21:50:23,340 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "GET /api/get_results/112 HTTP/1.1" 200 -
+2025-04-08 21:50:23,343 DEBUG routes - Received job request: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'}
+2025-04-08 21:50:23,344 DEBUG routes - Job submitted with id: 113
+2025-04-08 21:50:23,344 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:23,348 DEBUG routes - Fetching results for job_id: 113
+2025-04-08 21:50:23,350 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "GET /api/get_results/113 HTTP/1.1" 200 -
+2025-04-08 21:50:23,353 DEBUG routes - Received job request: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'}
+2025-04-08 21:50:23,354 DEBUG routes - Job submitted with id: 114
+2025-04-08 21:50:23,354 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "POST /api/worst5 HTTP/1.1" 200 -
+2025-04-08 21:50:23,356 DEBUG routes - Fetching results for job_id: 114
+2025-04-08 21:50:23,357 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "GET /api/get_results/114 HTTP/1.1" 200 -
+2025-04-08 21:50:23,563 DEBUG routes - Fetching results for job_id: 114
+2025-04-08 21:50:23,563 INFO werkzeug - 127.0.0.1 - - [08/Apr/2025 21:50:23] "GET /api/get_results/114 HTTP/1.1" 200 -
