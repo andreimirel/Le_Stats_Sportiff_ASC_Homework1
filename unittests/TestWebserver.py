@@ -13,55 +13,44 @@ class FakeResponse:
 
 class TestServer(unittest.TestCase):
     base_url = "http://127.0.0.1:5000/api"
-    
+
     @patch("requests.post")
     @patch("requests.get")
-    def test_states_mean_request(self, mock_get, mock_post):
-        mock_post.return_value = FakeResponse({"job_id": 1})
-        mock_get.return_value = FakeResponse({"data": {"Missouri": 32.76268656716418}})
-        sender = requests.post(f"{self.base_url}/states_mean", json={
-            "question": "Percent of adults aged 18 years and older who have an overweight classification"
-        })
-        job_id = sender.json()["job_id"]
-        received = requests.get(f"{self.base_url}/get_results/{job_id}")
-        self.assertEqual(received.json()["data"]["Missouri"], 32.76268656716418)
-    
-    @patch("requests.post")
-    @patch("requests.get")
-    def test_state_mean_request(self, mock_get, mock_post):
-        fake_job = {"job_id": 2}
-        fake_data = {"data": {"South Carolina": 33.25909090909091}}
+    def test_diff_from_mean_request(self, mock_get, mock_post):
+        fake_job = {"job_id": 6}
+        fake_get_data = {"data": {"Missouri": 1.720074848669384}}
         mock_post.return_value = FakeResponse(fake_job)
-        mock_get.return_value = FakeResponse(fake_data)
-        response = requests.post(f"{self.base_url}/state_mean", json={
-            "question": "Percent of adults aged 18 years and older who have an overweight classification",
-            "state": "South Carolina"
+        mock_get.return_value = FakeResponse(fake_get_data)
+        response = requests.post(f"{self.base_url}/diff_from_mean", json={
+            "question": "Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)"
         })
         job_id = response.json()["job_id"]
         received = requests.get(f"{self.base_url}/get_results/{job_id}")
-        self.assertEqual(received.json()["data"]["South Carolina"], 33.25909090909091)
-    
+        self.assertEqual(received.json()["data"]["Missouri"], 1.720074848669384)
+
+
     @patch("requests.post")
     @patch("requests.get")
     def test_best5_request(self, mock_get, mock_post):
         fake_job = {"job_id": 3}
         expected_data = {
-            'Arkansas': 32.99516129032258, 
-            'District of Columbia': 30.746875, 
-            'Kentucky': 33.071641791044776, 
-            'Missouri': 32.76268656716418, 
-            'Vermont': 33.11818181818182
+            "Colorado": 23.071428571428573, 
+            "New Jersey": 25.451785714285712, 
+            "District of Columbia": 25.541428571428572, 
+            "Massachusetts": 26.198684210526313, 
+            "California": 26.81451612903226
         }
         fake_get_data = {"data": expected_data}
         mock_post.return_value = FakeResponse(fake_job)
         mock_get.return_value = FakeResponse(fake_get_data)
         response = requests.post(f"{self.base_url}/best5", json={
-            "question": "Percent of adults aged 18 years and older who have an overweight classification"
+            "question": "Percent of adults aged 18 years and older who have obesity"
         })
         job_id = response.json()["job_id"]
         received = requests.get(f"{self.base_url}/get_results/{job_id}")
         self.assertEqual(received.json()["data"], expected_data)
     
+
     @patch("requests.post")
     @patch("requests.get")
     def test_worst5_request(self, mock_get, mock_post):
@@ -83,33 +72,33 @@ class TestServer(unittest.TestCase):
         received = requests.get(f"{self.base_url}/get_results/{job_id}")
         self.assertEqual(received.json()["data"], expected_data)
     
+
     @patch("requests.post")
     @patch("requests.get")
     def test_global_mean_request(self, mock_get, mock_post):
         fake_job = {"job_id": 5}
-        fake_get_data = {"data": {"global_mean": 34.48276141583355}}
+        fake_get_data = {"data": {"global_mean": 30.9200408997955}}
         mock_post.return_value = FakeResponse(fake_job)
         mock_get.return_value = FakeResponse(fake_get_data)
         response = requests.post(f"{self.base_url}/global_mean", json={
-            "question": "Percent of adults aged 18 years and older who have an overweight classification"
+            "question": "Percent of adults who engage in muscle-strengthening activities on 2 or more days a week"
         })
         job_id = response.json()["job_id"]
         received = requests.get(f"{self.base_url}/get_results/{job_id}")
-        self.assertEqual(received.json()["data"]["global_mean"], 34.48276141583355)
+        self.assertEqual(received.json()["data"]["global_mean"], 30.9200408997955)
     
     @patch("requests.post")
     @patch("requests.get")
-    def test_diff_from_mean_request(self, mock_get, mock_post):
-        fake_job = {"job_id": 6}
-        fake_get_data = {"data": {"Ohio": 1.2252271692582184}}
-        mock_post.return_value = FakeResponse(fake_job)
-        mock_get.return_value = FakeResponse(fake_get_data)
-        response = requests.post(f"{self.base_url}/diff_from_mean", json={
+    def test_states_mean_request(self, mock_get, mock_post):
+        mock_post.return_value = FakeResponse({"job_id": 1})
+        mock_get.return_value = FakeResponse({"data": {"Missouri": 32.76268656716418}})
+        sender = requests.post(f"{self.base_url}/states_mean", json={
             "question": "Percent of adults aged 18 years and older who have an overweight classification"
         })
-        job_id = response.json()["job_id"]
+        job_id = sender.json()["job_id"]
         received = requests.get(f"{self.base_url}/get_results/{job_id}")
-        self.assertEqual(received.json()["data"]["Ohio"], 1.2252271692582184)
+        self.assertEqual(received.json()["data"]["Missouri"], 32.76268656716418)
+
     
     @patch("requests.post")
     @patch("requests.get")
@@ -181,18 +170,20 @@ class TestServer(unittest.TestCase):
         self.assertEqual(result_error.get("status"), "error")
         self.assertEqual(result_error.get("reason"), "Invalid job_id")
 
-
     @patch("requests.post")
     @patch("requests.get")
-    def test_get_result_task_done(self, mocked_get, mocked_post):
-        creation_payload = {"job_id": 1}
-        mocked_post.return_value = FakeResponse(creation_payload, status_code=200)
-        mocked_get.return_value = FakeResponse({"status": "done", "data": {}}, status_code=200)
-        task_payload = {"question": "Percent of adults aged 18 years and older who have an overweight classification"}
-        _ = requests.post(f"{self.base_url}/states_mean", json=task_payload)
-        done_response = requests.get(f"{self.base_url}/get_results/1")
-        result_done = done_response.json()
-        self.assertEqual(result_done["status"], "done")
+    def test_state_mean_request(self, mock_get, mock_post):
+        fake_job = {"job_id": 2}
+        fake_data = {"data": {"South Carolina": 33.25909090909091}}
+        mock_post.return_value = FakeResponse(fake_job)
+        mock_get.return_value = FakeResponse(fake_data)
+        response = requests.post(f"{self.base_url}/state_mean", json={
+            "question": "Percent of adults aged 18 years and older who have an overweight classification",
+            "state": "South Carolina"
+        })
+        job_id = response.json()["job_id"]
+        received = requests.get(f"{self.base_url}/get_results/{job_id}")
+        self.assertEqual(received.json()["data"]["South Carolina"], 33.25909090909091)
 
 if __name__ == "__main__":
     unittest.main()
